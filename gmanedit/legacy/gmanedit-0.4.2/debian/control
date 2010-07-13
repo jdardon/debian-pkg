@@ -1,0 +1,19 @@
+Source: gmanedit
+Section: gnome
+Priority: optional
+Build-Depends: gettext (>=0.10.35), autoconf, debhelper (>=5), libgtk2.0-dev, pkg-config, dpatch, autotools-dev
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Homepage: http://gmanedit2.sourceforge.net
+Standards-Version: 3.8.3
+
+Package: gmanedit
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: GTK+ man pages editor
+ Gtk+ Manpages Editor is an editor for man pages that runs on X with GTK+.
+ .
+ Gmanedit is an application which allows you to edit manual pages (man) on 
+ Linux/Unix systems.
+ .
+ It is like most common HTML editors but more easy. You need to know manpages
+ format.

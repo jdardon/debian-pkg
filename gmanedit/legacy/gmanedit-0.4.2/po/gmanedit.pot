@@ -1,0 +1,800 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gmanedit 0.4.2\n"
+"Report-Msgid-Bugs-To: pg4i@amsat.org\n"
+"POT-Creation-Date: 2008-11-03 19:16+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:37
+msgid "_New"
+msgstr ""
+
+#: src/interface.c:38
+msgid "New _Wizard page"
+msgstr ""
+
+#: src/interface.c:39
+msgid "_Open..."
+msgstr ""
+
+#: src/interface.c:40
+msgid "_Save"
+msgstr ""
+
+#: src/interface.c:41
+msgid "Save _As..."
+msgstr ""
+
+#: src/interface.c:42
+msgid "_Quit"
+msgstr ""
+
+#: src/interface.c:44
+msgid "Cu_t"
+msgstr ""
+
+#: src/interface.c:45
+msgid "_Copy"
+msgstr ""
+
+#: src/interface.c:46
+msgid "_Paste"
+msgstr ""
+
+#: src/interface.c:47
+msgid "_Select All"
+msgstr ""
+
+#: src/interface.c:49
+msgid "Basic Page"
+msgstr ""
+
+#: src/interface.c:50
+msgid "Titel"
+msgstr ""
+
+#: src/interface.c:51
+msgid "Date"
+msgstr ""
+
+#: src/interface.c:53
+msgid "Name"
+msgstr ""
+
+#: src/interface.c:54
+msgid "Synopsis"
+msgstr ""
+
+#: src/interface.c:55
+msgid "Configuration"
+msgstr ""
+
+#: src/interface.c:56
+msgid "Description"
+msgstr ""
+
+#: src/interface.c:57
+msgid "Options"
+msgstr ""
+
+#: src/interface.c:58
+msgid "Return value"
+msgstr ""
+
+#: src/interface.c:59
+msgid "Exit status"
+msgstr ""
+
+#: src/interface.c:60
+msgid "Errors"
+msgstr ""
+
+#: src/interface.c:61
+msgid "Environment"
+msgstr ""
+
+#: src/interface.c:62
+msgid "Files"
+msgstr ""
+
+#: src/interface.c:63
+msgid "Versions"
+msgstr ""
+
+#: src/interface.c:64
+msgid "Conforming to"
+msgstr ""
+
+#: src/interface.c:65
+msgid "Notes"
+msgstr ""
+
+#: src/interface.c:66
+msgid "Bugs"
+msgstr ""
+
+#: src/interface.c:67
+msgid "Example"
+msgstr ""
+
+#: src/interface.c:68
+msgid "See also"
+msgstr ""
+
+#: src/interface.c:70
+msgid "Left"
+msgstr ""
+
+#: src/interface.c:71
+msgid "Both"
+msgstr ""
+
+#: src/interface.c:73
+msgid "Enable"
+msgstr ""
+
+#: src/interface.c:74
+msgid "Disable"
+msgstr ""
+
+#: src/interface.c:76
+msgid "Bold"
+msgstr ""
+
+#: src/interface.c:77
+msgid "Bold - Roman"
+msgstr ""
+
+#: src/interface.c:78
+msgid "Italic"
+msgstr ""
+
+#: src/interface.c:79
+msgid "Italic - Bold"
+msgstr ""
+
+#: src/interface.c:80
+msgid "Italic - Roman"
+msgstr ""
+
+#: src/interface.c:81
+msgid "Roman - Bold"
+msgstr ""
+
+#: src/interface.c:82
+msgid "Roman - Italic"
+msgstr ""
+
+#: src/interface.c:83
+msgid "Small - Bold"
+msgstr ""
+
+#: src/interface.c:84
+msgid "Small"
+msgstr ""
+
+#: src/interface.c:86
+msgid "New Paragraph"
+msgstr ""
+
+#: src/interface.c:87
+msgid "Paragraph Start"
+msgstr ""
+
+#: src/interface.c:89
+msgid "Margin start"
+msgstr ""
+
+#: src/interface.c:90
+msgid "Margin end"
+msgstr ""
+
+#: src/interface.c:92
+msgid "Default tabs"
+msgstr ""
+
+#: src/interface.c:93
+msgid "Subheader"
+msgstr ""
+
+#: src/interface.c:94
+msgid "Comments"
+msgstr ""
+
+#: src/interface.c:96
+msgid "View created page"
+msgstr ""
+
+#: src/interface.c:97
+msgid "_Preferences"
+msgstr ""
+
+#: src/interface.c:99
+msgid "H_elp"
+msgstr ""
+
+#: src/interface.c:100
+msgid "_Home page"
+msgstr ""
+
+#: src/interface.c:101
+msgid "_About"
+msgstr ""
+
+#: src/interface.c:213
+msgid "Gmanedit - Gnome manpages editor"
+msgstr ""
+
+#: src/interface.c:272
+msgid "Gmanedit - Select file"
+msgstr ""
+
+#: src/interface.c:289
+msgid "Gmanedit - Saving file"
+msgstr ""
+
+#: src/interface.c:319
+msgid "Gmanedit - Search and replace"
+msgstr ""
+
+#: src/interface.c:332
+msgid "Search:         "
+msgstr ""
+
+#: src/interface.c:340 src/interface.c:354
+msgid "Option not yet available"
+msgstr ""
+
+#: src/interface.c:346
+msgid "Replace with: "
+msgstr ""
+
+#: src/interface.c:422
+msgid "Man Pages Editor"
+msgstr ""
+
+#: src/interface.c:439
+msgid "Gmanedit - Exit"
+msgstr ""
+
+#: src/interface.c:442
+msgid "Exit from gmanedit?"
+msgstr ""
+
+#: src/interface.c:480
+msgid "Gmanedit - Preferences"
+msgstr ""
+
+#: src/interface.c:493
+msgid "Command to test created man pages: "
+msgstr ""
+
+#: src/interface.c:502
+msgid "xterm -e man "
+msgstr ""
+
+#: src/interface.c:506
+msgid "Internet browser"
+msgstr ""
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "January"
+msgstr ""
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "February"
+msgstr ""
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "March"
+msgstr ""
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "April"
+msgstr ""
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "May"
+msgstr ""
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "June"
+msgstr ""
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "July"
+msgstr ""
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "August"
+msgstr ""
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "September"
+msgstr ""
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "October"
+msgstr ""
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "November"
+msgstr ""
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "December"
+msgstr ""
+
+#: src/interface.c:590
+msgid "Gmanedit - Wizard"
+msgstr ""
+
+#: src/interface.c:594
+msgid ""
+"Welcome to the Gmanedit Man Pages Wizard. Follow the next steps to build a "
+"Basic Man Page"
+msgstr ""
+
+#: src/interface.c:598
+msgid "Welcome"
+msgstr ""
+
+#: src/interface.c:638
+msgid "Creation Date:"
+msgstr ""
+
+#: src/interface.c:644
+msgid "Man page Title:"
+msgstr ""
+
+#: src/interface.c:650
+msgid "Man page Name:"
+msgstr ""
+
+#: src/interface.c:657
+msgid "Step 1: Basic Information"
+msgstr ""
+
+#: src/interface.c:668
+msgid "There are 8 sections for man pages. Select one:"
+msgstr ""
+
+#: src/interface.c:674
+msgid "Section 1: Commands"
+msgstr ""
+
+#: src/interface.c:679
+msgid "Section 2: System calls"
+msgstr ""
+
+#: src/interface.c:684
+msgid "Section 3: Library calls"
+msgstr ""
+
+#: src/interface.c:689
+msgid "Section 4: Special files (devices)"
+msgstr ""
+
+#: src/interface.c:695
+msgid "Section 5: File formats and conventions"
+msgstr ""
+
+#: src/interface.c:700
+msgid "Section 6: Games"
+msgstr ""
+
+#: src/interface.c:705
+msgid "Section 7: Conventions and miscellaneous"
+msgstr ""
+
+#: src/interface.c:710
+msgid "Section 8: System management commands"
+msgstr ""
+
+#: src/interface.c:716
+msgid "Section number"
+msgstr ""
+
+#: src/interface.c:736
+msgid "Step 2: Section number"
+msgstr ""
+
+#: src/interface.c:747
+msgid "What sections would you like include?"
+msgstr ""
+
+#: src/interface.c:751
+msgid "NAME"
+msgstr ""
+
+#: src/interface.c:757
+msgid "SYNOPSIS"
+msgstr ""
+
+#: src/interface.c:763
+msgid ""
+"CONFIGURATION\n"
+"(Section 4)"
+msgstr ""
+
+#: src/interface.c:768
+msgid "DESCRIPTION"
+msgstr ""
+
+#: src/interface.c:774
+msgid ""
+"OPTIONS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:780
+msgid ""
+"EXIT STATUS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:786
+msgid ""
+"RETURN VALUE\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:791
+msgid ""
+"ERRORS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:796
+msgid "ENVIRONMENT"
+msgstr ""
+
+#: src/interface.c:801
+msgid "FILES"
+msgstr ""
+
+#: src/interface.c:806
+msgid ""
+"VERSIONS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:812
+msgid "CONFORMING TO"
+msgstr ""
+
+#: src/interface.c:817
+msgid "NOTES"
+msgstr ""
+
+#: src/interface.c:822
+msgid "BUGS"
+msgstr ""
+
+#: src/interface.c:827
+msgid "EXAMPLE"
+msgstr ""
+
+#: src/interface.c:832
+msgid "SEE ALSO"
+msgstr ""
+
+#: src/interface.c:839
+msgid "Step 3: Man Sections"
+msgstr ""
+
+#: src/interface.c:844
+msgid ""
+"Thank you for using me! You can now edit the man page with gmanedit to "
+"change and complete the text"
+msgstr ""
+
+#: src/interface.c:848
+msgid "The End"
+msgstr ""
+
+#: src/callbacks.c:85
+msgid "Text cut."
+msgstr ""
+
+#: src/callbacks.c:100
+msgid "Text copied."
+msgstr ""
+
+#: src/callbacks.c:117
+msgid "Text pasted."
+msgstr ""
+
+#: src/callbacks.c:126
+msgid ""
+".\\\"Created with GNOME Manpages Editor\n"
+".\\\"http://sourceforge.net/projects/gmanedit2\n"
+"\n"
+".\\\"Replace <program> with the program name, x with the Section Number\n"
+".TH <program> x \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+".SH NAME\n"
+"<program> \\- program for...\n"
+"\n"
+"..SH SYNOPSIS\n"
+".B <program>\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+".SH DESCRIPTION\n"
+"This manual page explains the \\fB<program>\\fP program. The \\fB<program>"
+"\\fP program is for...\n"
+"\n"
+".SH OPTIONS\n"
+".IP \\fB\\-OPTION\\fP\n"
+"This option...\n"
+"\n"
+".SH NOTES\n"
+"\n"
+".SH \"SEE ALSO\"\n"
+msgstr ""
+
+#: src/callbacks.c:153
+msgid "New file."
+msgstr ""
+
+#: src/callbacks.c:272
+msgid "File saved."
+msgstr ""
+
+#: src/callbacks.c:276
+msgid "File NOT saved."
+msgstr ""
+
+#: src/callbacks.c:289
+msgid ""
+".TH <program> <section number> \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:299
+msgid ""
+".SH NAME\n"
+"<program> \\- program for... \n"
+msgstr ""
+
+#: src/callbacks.c:309
+msgid ".SH SYNOPSIS\n"
+msgstr ""
+
+#: src/callbacks.c:319
+msgid ".SH CONFIGURATION\n"
+msgstr ""
+
+#: src/callbacks.c:328
+msgid ".SH DESCRIPTION\n"
+msgstr ""
+
+#: src/callbacks.c:338
+msgid ".SH OPTIONS\n"
+msgstr ""
+
+#: src/callbacks.c:348
+msgid ".SH \"RETURN VALUE\"\n"
+msgstr ""
+
+#: src/callbacks.c:358
+msgid ".SH \"EXIT STATUS\"\n"
+msgstr ""
+
+#: src/callbacks.c:367
+msgid ".SH ERRORS\n"
+msgstr ""
+
+#: src/callbacks.c:377
+msgid ".SH FILES\n"
+msgstr ""
+
+#: src/callbacks.c:386
+msgid ".SH ENVIRONMENT\n"
+msgstr ""
+
+#: src/callbacks.c:395
+msgid ".SH VERSIONS\n"
+msgstr ""
+
+#: src/callbacks.c:404
+msgid ".SH NOTES\n"
+msgstr ""
+
+#: src/callbacks.c:413
+msgid ".SH BUGS\n"
+msgstr ""
+
+#: src/callbacks.c:422
+msgid ".SH EXAMPLE\n"
+msgstr ""
+
+#: src/callbacks.c:432
+msgid ".SH \"SEE ALSO\"\n"
+msgstr ""
+
+#: src/callbacks.c:441
+msgid ".SH \"CONFORMING TO\"\n"
+msgstr ""
+
+#: src/callbacks.c:458
+msgid ".SH \"<SECTION NAME>\"\n"
+msgstr ""
+
+#: src/callbacks.c:593
+msgid ".RS <margin position>\n"
+msgstr ""
+
+#: src/callbacks.c:620
+msgid ".SS \"<NAME>\"\n"
+msgstr ""
+
+#: src/callbacks.c:660
+msgid "Page preview."
+msgstr ""
+
+#: src/callbacks.c:780
+msgid "Date inserted."
+msgstr ""
+
+#: src/callbacks.c:783
+msgid "Cannot get system date!"
+msgstr ""
+
+#: src/callbacks.c:914
+msgid "Text selected."
+msgstr ""
+
+#: src/callbacks.c:986
+msgid ".SH NAME\n"
+msgstr ""
+
+#: src/callbacks.c:988
+msgid ""
+" \\- program for...\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:994
+msgid ""
+".SH SYNOPSIS\n"
+".B "
+msgstr ""
+
+#: src/callbacks.c:996
+msgid ""
+"\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1001
+msgid ""
+".SH CONFIGURATION\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1006
+msgid ""
+".SH DESCRIPTION\n"
+"This manual page explains the\n"
+".B "
+msgstr ""
+
+#: src/callbacks.c:1008
+msgid ""
+"\n"
+"program. This program...\n"
+".PP\n"
+"\\fB"
+msgstr ""
+
+#: src/callbacks.c:1010
+msgid ""
+"\\fP is for...\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1015
+msgid ""
+".SH OPTIONS\n"
+".B\n"
+".IP -OPTION\n"
+"This option...\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1019
+msgid ""
+".SH \"EXIT STATUS\"\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1029
+msgid ""
+".SH ERRORS\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1033
+msgid ""
+".SH ENVIRONMENT\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1037
+msgid ""
+".SH FILES\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1041
+msgid ""
+".SH VERSIONS\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1046
+msgid ""
+".SH \"CONFORMING TO\"\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1050
+msgid ""
+".SH NOTES\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1054
+msgid ""
+".SH BUGS\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1058
+msgid ""
+".SH EXAMPLE\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1062
+msgid ""
+".SH \"SEE ALSO\"\n"
+"\n"
+msgstr ""
+
+#: src/callbacks.c:1068
+msgid "Wizard page created."
+msgstr ""
+
+#: src/callbacks.c:1126
+msgid "Man help."
+msgstr ""
+
+#: src/callbacks.c:1148
+msgid "File opened."
+msgstr ""
+
+#: src/support.c:93
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#: src/support.c:100
+#, c-format
+msgid "Failed to load pixbuf file: %s: %s\n"
+msgstr ""

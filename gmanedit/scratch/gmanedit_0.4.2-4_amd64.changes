@@ -1,0 +1,58 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 07 Jul 2010 21:52:49 -0600
+Source: gmanedit
+Binary: gmanedit
+Architecture: source amd64
+Version: 0.4.2-4
+Distribution: unstable
+Urgency: low
+Maintainer: Jorge Alberto Dardón Galicia <jorge@xelalug.org>
+Changed-By: Jorge Dardón <jorge@xelalug.org>
+Description: 
+ gmanedit   - GTK+ man pages editor
+Closes: 553984 554557
+Changes: 
+ gmanedit (0.4.2-4) unstable; urgency=low
+ .
+   * Now Using Quilt.
+   * Bumped to the Standards-Version 3.9.0.
+   * added ${misc:Depends} to control file on Depends field.
+   * Added 07_binutils_gold.dpatch to fix
+     FTBFS with binutils-gold (Closes: #554557).
+   * New maintainer, (Closes: #553984).
+Checksums-Sha1: 
+ bc47cac4d1b48e9c1b6ece5f5b09f3d4ee82815c 1743 gmanedit_0.4.2-4.dsc
+ ab10ab6d605419a646b8cc54c35ac457061c3e59 218000 gmanedit_0.4.2.orig.tar.gz
+ 9f75bccbacbefcb4e6820c110b272cfd01ac2cf7 13829 gmanedit_0.4.2-4.diff.gz
+ de5cc255d9e52570d98275b2761fd2cca565c8b8 54198 gmanedit_0.4.2-4_amd64.deb
+Checksums-Sha256: 
+ 3c9643c5f52bc3be309b1d8027cfb4ac65b6b762e0ee338b81d7b15907450208 1743 gmanedit_0.4.2-4.dsc
+ fbfaa424653b9287ca2994293bab03d51fa4957cdb7e974360f50c4ab2c76170 218000 gmanedit_0.4.2.orig.tar.gz
+ b5295046fe5adf66f99fd8c4e59a3bf4b7fbd8c083ecbd59f52cc8c48e04775e 13829 gmanedit_0.4.2-4.diff.gz
+ 305b2f7000d7f5f89ebc2b48db144867855a7185cd1a0c2fb7381b6975196b6a 54198 gmanedit_0.4.2-4_amd64.deb
+Files: 
+ 86c5b058a9c84fae6ca49c505b7cfaa6 1743 gnome optional gmanedit_0.4.2-4.dsc
+ 7d4989c762ef3ef1291fd7bccdf8e9be 218000 gnome optional gmanedit_0.4.2.orig.tar.gz
+ 5e2076c1faac1b139a51f05d2eb133dc 13829 gnome optional gmanedit_0.4.2-4.diff.gz
+ b9da44f45df27b25a8d71c9949122b7c 54198 gnome optional gmanedit_0.4.2-4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBCAAGBQJMNWKFAAoJEMOgSqmCTz2Zt+UQALmWHlQdqlyq+Vhhtg4qYQO4
+x/gSfOC4DiCqGn9MT3nN/o93wXFcpp8nWSlv8DOqpMUr1xBZgEE8rK/FQmEAPBqU
+88sVL6JbS5ohC/oSXmxpjEY/JK1U913B5O+0aXhhDQ5/McShlvFZHhzLAQ7oaaBJ
+8I/24Pkp5/tOidwoid75lJ+bX+WMP8bfONQrM/kHlXM9QaC3kPFz3cYLp4XNMM4l
+FX1gahwaFcowlCuA/uKsyvydpcvoRzRxEv1lGVDwXsK2OlP9azc8stNvni5uIv7w
+lJikM1+dtnEZfP57PE8Sp7X5Addmac9+AIvV+Giya6WdA7ubmvLA0EPn5Qfh5Y9v
+xsb7WRBPSVOXHBBwf9MWXbcLtVT9Dt3W8iPL8i5+8A9OBsCwjRB8oUkx/RKjlV79
+3xxlgQ13fHrAAaYNhi46s0MVgcR8ZpjoGXu1TmRlgz7I/WqbOB5ZKFQ9yjts+Olw
+iuygQxzd0pu7CnoPV1mXU6GaOZgFPynYNeiRZv/5EQgjCv0o3oboGG0RJH9nwpOQ
+iHYgjk5gFKTIQ1BEVzzGL4gS3l9dRxcJ4FA5ZvKIorXlas0NUSa5/tq9chtGH5tm
+iJsYJyiuv+KyIisj9Y3If90IXBJfFJZcadwKAoXGkiKklfkbpMDxiJaWHBXw3K4h
+XCd0Eud0Jx7mr2368InW
+=AjwG
+-----END PGP SIGNATURE-----

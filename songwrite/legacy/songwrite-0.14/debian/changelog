@@ -1,0 +1,211 @@
+songwrite (0.14-8) unstable; urgency=low
+
+  * QA upload.
+  * Fix breakage introduced in 0.14-5, 0.14-6 and 0.14-7 uploads:
+    + Install Python modules into a private directory again.
+    + Remove *.egg-info from the binary package; not really needed for
+      anything.
+    + Make the package ‘Architecture: all’ again.
+    + Remove incorrect debian/pyversions.
+    + Replace DEB_PYTHON_MODULE_PACKAGE with actual package name, so that the
+      the rule is actually invoked.
+    + Drop 000_fix_modules_path.diff, no longer needed.
+  * Build-depend on python (rather than on python-dev).
+  * Remove debian/pycompat, it's not needed with current Python helpers.
+    Build depend on cbds (>= 0.4.62~) and add XS-Python-Version to avoid
+    recreating it at build time.
+  * Bump standards version to 3.8.4 (no changes needed):
+  * Drop debian/control.in, it was outdated anyway.
+
+ -- Jakub Wilk <jwilk@debian.org>  Tue, 09 Feb 2010 15:54:11 +0100
+
+songwrite (0.14-7) unstable; urgency=low
+
+  * QA upload.
+  * Switch to dpkg-source 3.0 (quilt) format
+  * debian/pyversions: Added to build on python -2.5
+    (Closes: #566899)
+  * debian/rules: Use of DEB_PYTHON_MODULE_PACKAGE is deprecated, 
+    using DEB_PYTHON_MODULE_PACKAGES instead.
+  * debian/watch: The name of the software on newer versions has 
+    changed to 'Songwrite2' so, we added a workaround to detect newer
+    versions based on new software name.
+  * debian/desktop: Removed 'Encoding' key to avoid lintian message
+    I: songwrite: desktop-entry-contains-encoding-key
+  * debian/patches/000_fix_modules_path.diff: Add path to libs
+
+ -- Dario Minnucci <midget@debian.org>  Tue, 26 Jan 2010 09:11:05 +0100
+
+songwrite (0.14-6) unstable; urgency=low
+
+  * QA upload.
+  * debian/rules: No longer moving non-existent files (Closes: #564403)
+  * debian/control:
+    + Remove duplicated Build-Dep on cdbs.
+    + s/Architecture: all/Architecture: any/ to get rid of 
+      lintian W: build-depends-on-python-dev-with-no-arch-any
+
+ -- Dario Minnucci <midget@debian.org>  Mon, 25 Jan 2010 08:22:28 +0100
+
+songwrite (0.14-5) unstable; urgency=low
+
+  * QA upload.
+  * Remove deprecated dh_desktop.
+  * Copy .egg-info file from correct dir. (Closes: #549785).
+  * Bump Standards Version to 3.8.3. (No changes needed).
+
+ -- Barry deFreese <bdefreese@debian.org>  Thu, 29 Oct 2009 21:09:39 -0400
+
+songwrite (0.14-4) unstable; urgency=low
+
+  * Orphaned.
+  * Added missing '${misc:Depends}' dependency.
+  * Bumped Standards-Version (no changes).
+  * Fixed reference in copyright file to the right GPL version.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 30 Mar 2009 23:20:59 +0200
+
+songwrite (0.14-3) unstable; urgency=low
+
+  * Updated URL in copyright and added Homepage.
+  * Increased Standards-Version (no changes).
+  * Improved dependency on postscript viewer (Closes: #384227).
+  * Fixed menu section (s/Apps/Applications/).
+  * Moved egg-info in the right place (was generated in '/usr/share/',
+    by distutils, for a reason i was not able to understand).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 16 Mar 2008 19:29:10 +0100
+
+songwrite (0.14-2) unstable; urgency=low
+
+  * Comply with new policy.
+  * Switched to debhelper compat 5.
+  * Menu icon is now in XPM format to comply with the policy.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue, 27 Jun 2006 04:07:17 +0200
+
+songwrite (0.14-1) unstable; urgency=low
+
+  * New upstream release:
+    + Fixed latex generation (Closes: #369267).
+    + Icon added.
+  * Added new icon to menu, and missing call to dh_desktop
+    (Closes: #299401).
+  * Fixed build-depends.
+  * Removed manpage patch (now included in upstream tarball).
+  * Made documentation relocation more consistent in 'debian/rules'.
+  * Increased Standards-Version to 3.7.2.0 (no changes).
+  * Updated FSF postal address in 'debian/copyright'.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun,  4 Jun 2006 01:56:41 +0200
+
+songwrite (0.13-1) unstable; urgency=low
+
+  * New upstream release.
+  * Updated 'python-editobj' and 'lilypond' depends.
+  * Added watch file.
+  * Updated Standards-Version (no changes needed).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sat, 27 Aug 2005 10:39:08 +0200
+
+songwrite (0.12b-4) unstable; urgency=high
+
+  * Package rearrangement to comply with python policy (Build-Depends &
+    Depends changes, ...) (Closes FTBFS).
+  * Added desktop menu entry.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu,  8 Jul 2004 00:48:16 +0200
+
+songwrite (0.12b-3) unstable; urgency=low
+
+  * Added menu entry (without icone because there no available logo to
+    create one)(Closes: #246022).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 29 Apr 2004 00:58:49 +0200
+
+songwrite (0.12b-2) unstable; urgency=low
+
+  * Corrected missing build dependency on cdbs.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 19 Apr 2004 22:29:29 +0200
+
+songwrite (0.12b-1) unstable; urgency=low
+
+  * Renamed top source directory.
+  * Updated Maintainer field.
+  * Switched to CDBS.
+  * Removed 'build' directory.
+  * Removed 'debian/docs' as CDBS installs 'README' and 'TODO'
+    automagically.
+  * Split patches out of '.diff.gz'.
+  * Removed '.po' files.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 18 Apr 2004 20:44:59 +0200
+
+songwrite (0.12-6) unstable; urgency=low
+
+  * Accepted in repository (Closes: #219293).
+  * Added missing dependencies for needed external programs.
+  * Improved package Description.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Mon, 10 Nov 2003 11:43:24 +0100
+
+songwrite (0.12-5) unstable; urgency=low
+
+  * Added missing dependency on python-tk.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Mon, 10 Nov 2003 05:30:35 +0100
+
+songwrite (0.12-4) unstable; urgency=low
+
+  * Corrected Architecture, now set to All.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Wed,  5 Nov 2003 17:55:12 +0100
+
+songwrite (0.12-3) unstable; urgency=low
+
+  * 'debian/changelog' and 'debian/control' are now UTF-8 encoded.
+  * Updated Standards-Version.
+  * Added missing dependency on 'python-editobj'.
+  * Improved 'debian/copyright'.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Wed,  5 Nov 2003 17:54:16 +0100
+
+songwrite (0.12-2) unstable; urgency=low
+
+  * Cleanly rebuilded against python 2.3.
+  * Updated 'Standards-Version'.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Tue, 19 Aug 2003 14:14:47 +0200
+
+songwrite (0.12-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Fri,  1 Aug 2003 21:59:47 +0200
+
+songwrite (0.11-2) unstable; urgency=low
+
+  * now signing packages with real identity.
+  * Recompiled for python 2.3.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Fri,  1 Aug 2003 21:57:20 +0200
+
+songwrite (0.11-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- The Duck <Duck@DuckCorp.org>  Thu, 26 Jun 2003 15:06:30 +0200
+
+songwrite (0.10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- The Duck <Duck@DuckCorp.org>  Wed, 21 May 2003 18:41:23 +0200
+
+songwrite (0.9-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- The Duck <Duck@DuckCorp.org>  Wed, 14 May 2003 14:39:53 +0200
+

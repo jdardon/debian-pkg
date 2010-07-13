@@ -1,0 +1,4 @@
+version=2
+http://download.gna.org/songwrite/ \
+        EditObj-(.*)\.tar\.gz \
+        debian uupdate

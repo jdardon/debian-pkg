@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Songwrite
+GenericName=Tablature editor
+Type=Application
+Categories=Application;AudioVideo;Audio;Music;AudioVideoEditing;Player;
+Terminal=false
+Exec=songwrite
+Comment=guitar tablature editor and player
+Icon=/usr/share/songwrite/data/songwrite_32x32.png

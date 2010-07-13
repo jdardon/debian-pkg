@@ -1,0 +1,77 @@
+                           Songwrite
+
+    A tablature editor with Python, Timidity and Lilypond.
+
+
+Songwrite is a tablatures (guitar partitions) editor and player.
+Songwrite is entirely written in Python.
+
+Songwrite is the new name of GTablature. GTablature was similar to
+Songwrite, but it was using different libraries (Gtk and Gnome instead
+of Tk). The new version of Gtk (Gtk 2) was not compatible with the
+previous one, and cannot be used along with Gtk 1 (in Python).
+I really wonder what kind of hacker is ready to rewrite the whole
+interface of his apps for each new version of the toolkit !
+For these reasons, i've choosen to change the toolkit.
+
+Songwrite can open the GTablature's files, and has a very similar look
+and feel.
+
+
+See the complete doc in ./doc/en/doc.html
+or French version in ./doc/fr/doc.html
+
+--- License ---
+Songwrite is Free Software.
+It is available under GNU GPL (doc under GNU FDL).
+
+Pleased the author: do not confound "Free Software" and "Freeware" !
+In addition to being "Freeware", a Free Software is available as
+source code; it is allowed to modify and redistribute freely these
+sources.
+Thanks to these liberties, Free Softwares are an alternative to
+capitalism; respect it and join the revolution !
+
+
+--- Requirements ---
+ * Python 2.2 or newer (with Tkinter)
+
+ * PyXML (http://sourceforge.net/projects/pyxml/) ??
+
+ * EditObj (the last version (0.5.1), http://oomadness.tuxfamily.org/en/editobj)
+
+ * Timidity and  Timidity instruments, or Playmidi, or  another way to
+   play midi file (require for playing tablature; you can still create
+   midi file without)
+
+ * Lilypond (tested with Lilypond 2.0.1) for printing.
+   (and, obviously, LaTeX, TeX and all the Lilypond requirements !)
+
+
+--- Installation ---
+Untar the tarball.
+Then you can immediately check Songwrite by running the ./songwrite
+script.
+
+Songwrite now uses Python's DistUtils for installation.
+To install Songwrite, type (as root):
+
+cd Songwrite-XXX
+python ./setup.py install
+
+NB: You'll get a warning at the end ("warning: install: modules
+installed to '/usr/share/'..."); you can safely ignore this warning.
+
+You can now run Songwrite by typing songwrite in a console.
+
+By default, Songwrite is installed in /usr, you can modify the
+setup.cfg file if you prefer another location.
+
+------
+
+Mail me for any comment, problem, suggestion or help !
+
+
+Jiba -- Jean-Baptiste LAMY -- jiba@tuxfamily.org
+                              http://oomadness.tuxfamily.org
+                              http://oomadness.tuxfamily.org/en/songwrite

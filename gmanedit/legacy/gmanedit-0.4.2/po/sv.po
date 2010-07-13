@@ -1,0 +1,1187 @@
+# Swedish translation of gmanedit.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gmanedit package.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gmanedit 0.3.3-12.1\n"
+"Report-Msgid-Bugs-To: pg4i@amsat.org\n"
+"POT-Creation-Date: 2008-11-03 19:16+0100\n"
+"PO-Revision-Date: 2006-01-15 19:49+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:37
+msgid "_New"
+msgstr "_Ny"
+
+#: src/interface.c:38
+msgid "New _Wizard page"
+msgstr "Ny _vägvisarsida"
+
+#: src/interface.c:39
+#, fuzzy
+msgid "_Open..."
+msgstr "Öppna"
+
+#: src/interface.c:40
+#, fuzzy
+msgid "_Save"
+msgstr "Spara"
+
+#: src/interface.c:41
+msgid "Save _As..."
+msgstr ""
+
+#: src/interface.c:42
+msgid "_Quit"
+msgstr ""
+
+#: src/interface.c:44
+#, fuzzy
+msgid "Cu_t"
+msgstr "Klipp ut"
+
+#: src/interface.c:45
+#, fuzzy
+msgid "_Copy"
+msgstr "Kopiera"
+
+#: src/interface.c:46
+#, fuzzy
+msgid "_Paste"
+msgstr "Klistra in"
+
+#: src/interface.c:47
+msgid "_Select All"
+msgstr "_Markera alla"
+
+#: src/interface.c:49
+#, fuzzy
+msgid "Basic Page"
+msgstr "Grundsida"
+
+#: src/interface.c:50
+#, fuzzy
+msgid "Titel"
+msgstr "Titel"
+
+#: src/interface.c:51
+msgid "Date"
+msgstr "Datum"
+
+#: src/interface.c:53
+msgid "Name"
+msgstr "Namn"
+
+#: src/interface.c:54
+msgid "Synopsis"
+msgstr "Synopsis"
+
+#: src/interface.c:55
+#, fuzzy
+msgid "Configuration"
+msgstr "I enlighet med"
+
+#: src/interface.c:56
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/interface.c:57
+msgid "Options"
+msgstr "Flaggor"
+
+#: src/interface.c:58
+#, fuzzy
+msgid "Return value"
+msgstr "Svarsvärden"
+
+#: src/interface.c:59
+msgid "Exit status"
+msgstr "Avslutskod"
+
+#: src/interface.c:60
+msgid "Errors"
+msgstr ""
+
+#: src/interface.c:61
+msgid "Environment"
+msgstr "Miljö"
+
+#: src/interface.c:62
+#, fuzzy
+msgid "Files"
+msgstr "Fil"
+
+#: src/interface.c:63
+msgid "Versions"
+msgstr ""
+
+#: src/interface.c:64
+msgid "Conforming to"
+msgstr "I enlighet med"
+
+#: src/interface.c:65
+msgid "Notes"
+msgstr "Noteringar"
+
+#: src/interface.c:66
+msgid "Bugs"
+msgstr "Buggar"
+
+#: src/interface.c:67
+#, fuzzy
+msgid "Example"
+msgstr "Exempel"
+
+#: src/interface.c:68
+msgid "See also"
+msgstr "Se också"
+
+#: src/interface.c:70
+msgid "Left"
+msgstr "Vänster"
+
+#: src/interface.c:71
+msgid "Both"
+msgstr "Båda"
+
+#: src/interface.c:73
+msgid "Enable"
+msgstr "Aktivera"
+
+#: src/interface.c:74
+msgid "Disable"
+msgstr "Stäng av"
+
+#: src/interface.c:76
+msgid "Bold"
+msgstr "Fet"
+
+#: src/interface.c:77
+msgid "Bold - Roman"
+msgstr "Fet - Roman"
+
+#: src/interface.c:78
+msgid "Italic"
+msgstr "Kursiv"
+
+#: src/interface.c:79
+msgid "Italic - Bold"
+msgstr "Kursiv - Fet"
+
+#: src/interface.c:80
+msgid "Italic - Roman"
+msgstr "Kursiv - Roman"
+
+#: src/interface.c:81
+msgid "Roman - Bold"
+msgstr "Roman - Fet"
+
+#: src/interface.c:82
+msgid "Roman - Italic"
+msgstr "Roman - Kursiv"
+
+#: src/interface.c:83
+msgid "Small - Bold"
+msgstr "Liten - Fet"
+
+#: src/interface.c:84
+msgid "Small"
+msgstr "Liten"
+
+#: src/interface.c:86
+#, fuzzy
+msgid "New Paragraph"
+msgstr "Ny paragraf"
+
+#: src/interface.c:87
+#, fuzzy
+msgid "Paragraph Start"
+msgstr "Paragrafstart"
+
+#: src/interface.c:89
+msgid "Margin start"
+msgstr "Marginalstart"
+
+#: src/interface.c:90
+msgid "Margin end"
+msgstr "Marginalslut"
+
+#: src/interface.c:92
+msgid "Default tabs"
+msgstr "Standardtabulatorer"
+
+#: src/interface.c:93
+msgid "Subheader"
+msgstr "Underhuvud"
+
+#: src/interface.c:94
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: src/interface.c:96
+#, fuzzy
+msgid "View created page"
+msgstr "Skapad sida"
+
+#: src/interface.c:97
+#, fuzzy
+msgid "_Preferences"
+msgstr "Inställningar"
+
+#: src/interface.c:99
+msgid "H_elp"
+msgstr "H_jälp"
+
+#: src/interface.c:100
+#, fuzzy
+msgid "_Home page"
+msgstr "_Webbplats"
+
+#: src/interface.c:101
+msgid "_About"
+msgstr ""
+
+#: src/interface.c:213
+#, fuzzy
+msgid "Gmanedit - Gnome manpages editor"
+msgstr "GNOME-redigerare för manualsidor"
+
+#: src/interface.c:272
+#, fuzzy
+msgid "Gmanedit - Select file"
+msgstr "Välj fil"
+
+#: src/interface.c:289
+#, fuzzy
+msgid "Gmanedit - Saving file"
+msgstr "Sparar fil"
+
+#: src/interface.c:319
+#, fuzzy
+msgid "Gmanedit - Search and replace"
+msgstr "Sök och ersätt"
+
+#: src/interface.c:332
+msgid "Search:         "
+msgstr "Sök:"
+
+#: src/interface.c:340 src/interface.c:354
+msgid "Option not yet available"
+msgstr "Alternativ inte tillgängligt ännu"
+
+#: src/interface.c:346
+msgid "Replace with: "
+msgstr "Ersätt med: "
+
+#: src/interface.c:422
+#, fuzzy
+msgid "Man Pages Editor"
+msgstr "Redigerare för manualsidor."
+
+#: src/interface.c:439
+msgid "Gmanedit - Exit"
+msgstr ""
+
+#: src/interface.c:442
+msgid "Exit from gmanedit?"
+msgstr "Avsluta gmanedit?"
+
+#: src/interface.c:480
+#, fuzzy
+msgid "Gmanedit - Preferences"
+msgstr "Inställningar"
+
+#: src/interface.c:493
+msgid "Command to test created man pages: "
+msgstr "Kommando för att testa skapade manualsidor: "
+
+#: src/interface.c:502
+msgid "xterm -e man "
+msgstr "xterm -e man "
+
+#: src/interface.c:506
+msgid "Internet browser"
+msgstr "Webbläsare"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "January"
+msgstr "Januari"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "February"
+msgstr "Februari"
+
+#: src/interface.c:583 src/callbacks.c:762
+#, fuzzy
+msgid "March"
+msgstr "_Sök"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "April"
+msgstr "April"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "May"
+msgstr "Maj"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "June"
+msgstr "Juni"
+
+#: src/interface.c:584 src/callbacks.c:763
+#, fuzzy
+msgid "July"
+msgstr "Juli"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "August"
+msgstr "Augusti"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "September"
+msgstr "September"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "October"
+msgstr "Oktober"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "November"
+msgstr "November"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "December"
+msgstr "December"
+
+#: src/interface.c:590
+msgid "Gmanedit - Wizard"
+msgstr ""
+
+#: src/interface.c:594
+#, fuzzy
+msgid ""
+"Welcome to the Gmanedit Man Pages Wizard. Follow the next steps to build a "
+"Basic Man Page"
+msgstr ""
+"Välkommen till vägvisaren för Gmanedits manualsidor. \n"
+"Följ de kommande stegen för att bygga grunden till en manualsida."
+
+#: src/interface.c:598
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/interface.c:638
+msgid "Creation Date:"
+msgstr "Skapad den:"
+
+#: src/interface.c:644
+msgid "Man page Title:"
+msgstr "Titel för manualsida:"
+
+#: src/interface.c:650
+msgid "Man page Name:"
+msgstr "Namn för manualsida:"
+
+#: src/interface.c:657
+msgid "Step 1: Basic Information"
+msgstr "Steg 1: Grundläggande information"
+
+#: src/interface.c:668
+#, fuzzy
+msgid "There are 8 sections for man pages. Select one:"
+msgstr "Det finns 9 sektioner för manualsidor. Välj en:"
+
+#: src/interface.c:674
+msgid "Section 1: Commands"
+msgstr "Sektion 1: Kommandon"
+
+#: src/interface.c:679
+msgid "Section 2: System calls"
+msgstr "Sektion 2: Systemanrop"
+
+#: src/interface.c:684
+msgid "Section 3: Library calls"
+msgstr "Sektion 3: Biblioteksanrop"
+
+#: src/interface.c:689
+#, fuzzy
+msgid "Section 4: Special files (devices)"
+msgstr "Sektion 4: Specialfiler"
+
+#: src/interface.c:695
+#, fuzzy
+msgid "Section 5: File formats and conventions"
+msgstr "Sektion 5: Filformat och konventioner"
+
+#: src/interface.c:700
+msgid "Section 6: Games"
+msgstr "Sektion 6: Spel"
+
+#: src/interface.c:705
+msgid "Section 7: Conventions and miscellaneous"
+msgstr ""
+
+#: src/interface.c:710
+msgid "Section 8: System management commands"
+msgstr "Sektion 8: Kommandon för systemhantering"
+
+#: src/interface.c:716
+msgid "Section number"
+msgstr "Sektionsnummer"
+
+#: src/interface.c:736
+msgid "Step 2: Section number"
+msgstr "Steg 2: Sektionsnummer"
+
+#: src/interface.c:747
+msgid "What sections would you like include?"
+msgstr "Vilka sektioner vill du inkludera?"
+
+#: src/interface.c:751
+msgid "NAME"
+msgstr "NAMN"
+
+#: src/interface.c:757
+msgid "SYNOPSIS"
+msgstr "SYNOPSIS"
+
+#: src/interface.c:763
+msgid ""
+"CONFIGURATION\n"
+"(Section 4)"
+msgstr ""
+
+#: src/interface.c:768
+msgid "DESCRIPTION"
+msgstr "BESKRIVNING"
+
+#: src/interface.c:774
+msgid ""
+"OPTIONS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:780
+msgid ""
+"EXIT STATUS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:786
+#, fuzzy
+msgid ""
+"RETURN VALUE\n"
+"(Section 2/3)"
+msgstr "SVARSVÄRDEN"
+
+#: src/interface.c:791
+msgid ""
+"ERRORS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:796
+msgid "ENVIRONMENT"
+msgstr "MILJÖ"
+
+#: src/interface.c:801
+msgid "FILES"
+msgstr "FILER"
+
+#: src/interface.c:806
+msgid ""
+"VERSIONS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:812
+msgid "CONFORMING TO"
+msgstr "I ENLIGHET MED"
+
+#: src/interface.c:817
+msgid "NOTES"
+msgstr "NOTERINGAR"
+
+#: src/interface.c:822
+msgid "BUGS"
+msgstr "BUGGAR"
+
+#: src/interface.c:827
+#, fuzzy
+msgid "EXAMPLE"
+msgstr ".SH EXAMPLES\n"
+
+#: src/interface.c:832
+msgid "SEE ALSO"
+msgstr "SE OCKSÅ"
+
+#: src/interface.c:839
+msgid "Step 3: Man Sections"
+msgstr "Steg 3: Manualsektioner"
+
+#: src/interface.c:844
+#, fuzzy
+msgid ""
+"Thank you for using me! You can now edit the man page with gmanedit to "
+"change and complete the text"
+msgstr ""
+"Tack för att du använder mig!\n"
+"Du kan nu redigera manualsidan med\n"
+"gmanedit för att ändra och göra klart\n"
+"texten."
+
+#: src/interface.c:848
+msgid "The End"
+msgstr "Slut"
+
+#: src/callbacks.c:85
+#, fuzzy
+msgid "Text cut."
+msgstr "Text urklippt."
+
+#: src/callbacks.c:100
+msgid "Text copied."
+msgstr "Text kopierad."
+
+#: src/callbacks.c:117
+msgid "Text pasted."
+msgstr "Text inklistrad."
+
+#: src/callbacks.c:126
+#, fuzzy
+msgid ""
+".\\\"Created with GNOME Manpages Editor\n"
+".\\\"http://sourceforge.net/projects/gmanedit2\n"
+"\n"
+".\\\"Replace <program> with the program name, x with the Section Number\n"
+".TH <program> x \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+".SH NAME\n"
+"<program> \\- program for...\n"
+"\n"
+"..SH SYNOPSIS\n"
+".B <program>\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+".SH DESCRIPTION\n"
+"This manual page explains the \\fB<program>\\fP program. The \\fB<program>"
+"\\fP program is for...\n"
+"\n"
+".SH OPTIONS\n"
+".IP \\fB\\-OPTION\\fP\n"
+"This option...\n"
+"\n"
+".SH NOTES\n"
+"\n"
+".SH \"SEE ALSO\"\n"
+msgstr ""
+".\\\"Created with GNOME Manpages Editor\n"
+".\\\"http://gmanedit.sourceforge.net\n"
+".\\\"Sergio Rua <srua@gpul.org>\n"
+".\\\"\n"
+".TH program <section number> \"<date>\" \"<title>\"\n"
+"\n"
+".SH NAME\n"
+"<program> \\-program for...\n"
+"\n"
+".SH SYNOPSIS\n"
+".B <program>\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+".SH DESCRIPTION\n"
+"This manual page explains the\n"
+".B <program>\n"
+"program. This program...\n"
+".PP\n"
+"\\fB<program>\\fP is for...\n"
+"\n"
+".SH OPTIONS\n"
+".B\n"
+".IP OPTION\n"
+"This option...\n"
+"\n"
+".SH LICENCE\n"
+"\n"
+".SH BUGS\n"
+"\n"
+".SH AUTHOR\n"
+
+#: src/callbacks.c:153
+msgid "New file."
+msgstr "Ny fil."
+
+#: src/callbacks.c:272
+msgid "File saved."
+msgstr "Fil sparad."
+
+#: src/callbacks.c:276
+msgid "File NOT saved."
+msgstr "Fil INTE sparad."
+
+#: src/callbacks.c:289
+#, fuzzy
+msgid ""
+".TH <program> <section number> \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+msgstr ""
+".TH program <section number> \"<date>\" \"<title>\"\n"
+"\n"
+
+#: src/callbacks.c:299
+#, fuzzy
+msgid ""
+".SH NAME\n"
+"<program> \\- program for... \n"
+msgstr ""
+".SH NAME program\n"
+"<program> \\- program for... \n"
+
+#: src/callbacks.c:309
+msgid ".SH SYNOPSIS\n"
+msgstr ".SH SYNOPSIS\n"
+
+#: src/callbacks.c:319
+#, fuzzy
+msgid ".SH CONFIGURATION\n"
+msgstr ".SH CONFORMING TO\n"
+
+#: src/callbacks.c:328
+msgid ".SH DESCRIPTION\n"
+msgstr ".SH DESCRIPTION\n"
+
+#: src/callbacks.c:338
+msgid ".SH OPTIONS\n"
+msgstr ".SH OPTIONS\n"
+
+#: src/callbacks.c:348
+#, fuzzy
+msgid ".SH \"RETURN VALUE\"\n"
+msgstr ".SH RETURN VALUES\n"
+
+#: src/callbacks.c:358
+#, fuzzy
+msgid ".SH \"EXIT STATUS\"\n"
+msgstr ".SH EXIT STATUS\n"
+
+#: src/callbacks.c:367
+#, fuzzy
+msgid ".SH ERRORS\n"
+msgstr ""
+".SH ERRORS\n"
+"\n"
+
+#: src/callbacks.c:377
+msgid ".SH FILES\n"
+msgstr ".SH FILES\n"
+
+#: src/callbacks.c:386
+msgid ".SH ENVIRONMENT\n"
+msgstr ".SH ENVIRONMENT\n"
+
+#: src/callbacks.c:395
+#, fuzzy
+msgid ".SH VERSIONS\n"
+msgstr ".SH OPTIONS\n"
+
+#: src/callbacks.c:404
+msgid ".SH NOTES\n"
+msgstr ".SH NOTES\n"
+
+#: src/callbacks.c:413
+msgid ".SH BUGS\n"
+msgstr ".SH BUGS\n"
+
+#: src/callbacks.c:422
+#, fuzzy
+msgid ".SH EXAMPLE\n"
+msgstr ".SH EXAMPLES\n"
+
+#: src/callbacks.c:432
+#, fuzzy
+msgid ".SH \"SEE ALSO\"\n"
+msgstr ".SH SEE ALSO\n"
+
+#: src/callbacks.c:441
+#, fuzzy
+msgid ".SH \"CONFORMING TO\"\n"
+msgstr ".SH CONFORMING TO\n"
+
+#: src/callbacks.c:458
+#, fuzzy
+msgid ".SH \"<SECTION NAME>\"\n"
+msgstr ".SH <SECTION NAME>\n"
+
+#: src/callbacks.c:593
+msgid ".RS <margin position>\n"
+msgstr ".RS <margin position>\n"
+
+#: src/callbacks.c:620
+#, fuzzy
+msgid ".SS \"<NAME>\"\n"
+msgstr ".SS <NAME>\n"
+
+#: src/callbacks.c:660
+msgid "Page preview."
+msgstr "Sidgranskning."
+
+#: src/callbacks.c:780
+msgid "Date inserted."
+msgstr "Datum inlagd."
+
+#: src/callbacks.c:783
+msgid "Cannot get system date!"
+msgstr "Kan inte hämta systemdatum!"
+
+#: src/callbacks.c:914
+msgid "Text selected."
+msgstr "Text markerad."
+
+#: src/callbacks.c:986
+msgid ".SH NAME\n"
+msgstr ".SH NAME\n"
+
+#: src/callbacks.c:988
+#, fuzzy
+msgid ""
+" \\- program for...\n"
+"\n"
+msgstr ""
+" \\-program för...\n"
+"\n"
+
+#: src/callbacks.c:994
+msgid ""
+".SH SYNOPSIS\n"
+".B "
+msgstr ""
+".SH SYNOPSIS\n"
+".B "
+
+#: src/callbacks.c:996
+msgid ""
+"\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+msgstr ""
+"\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+
+#: src/callbacks.c:1001
+#, fuzzy
+msgid ""
+".SH CONFIGURATION\n"
+"\n"
+msgstr ""
+".SH CONFORMING TO\n"
+"\n"
+
+#: src/callbacks.c:1006
+msgid ""
+".SH DESCRIPTION\n"
+"This manual page explains the\n"
+".B "
+msgstr ""
+".SH DESCRIPTION\n"
+"This manual page explains the\n"
+".B "
+
+#: src/callbacks.c:1008
+msgid ""
+"\n"
+"program. This program...\n"
+".PP\n"
+"\\fB"
+msgstr ""
+"\n"
+"program. This program...\n"
+".PP\n"
+"\\fB"
+
+#: src/callbacks.c:1010
+msgid ""
+"\\fP is for...\n"
+"\n"
+msgstr ""
+"\\fP är för...\n"
+"\n"
+
+#: src/callbacks.c:1015
+msgid ""
+".SH OPTIONS\n"
+".B\n"
+".IP -OPTION\n"
+"This option...\n"
+"\n"
+msgstr ""
+".SH OPTIONS\n"
+".B\n"
+".IP -OPTION\n"
+"This option...\n"
+"\n"
+
+#: src/callbacks.c:1019
+#, fuzzy
+msgid ""
+".SH \"EXIT STATUS\"\n"
+"\n"
+msgstr ".SH EXIT STATUS\n"
+
+#: src/callbacks.c:1029
+msgid ""
+".SH ERRORS\n"
+"\n"
+msgstr ""
+".SH ERRORS\n"
+"\n"
+
+#: src/callbacks.c:1033
+msgid ""
+".SH ENVIRONMENT\n"
+"\n"
+msgstr ""
+".SH ENVIRONMENT\n"
+"\n"
+
+#: src/callbacks.c:1037
+msgid ""
+".SH FILES\n"
+"\n"
+msgstr ""
+".SH FILES\n"
+"\n"
+
+#: src/callbacks.c:1041
+#, fuzzy
+msgid ""
+".SH VERSIONS\n"
+"\n"
+msgstr ""
+".SH ERRORS\n"
+"\n"
+
+#: src/callbacks.c:1046
+#, fuzzy
+msgid ""
+".SH \"CONFORMING TO\"\n"
+"\n"
+msgstr ""
+".SH CONFORMING TO\n"
+"\n"
+
+#: src/callbacks.c:1050
+msgid ""
+".SH NOTES\n"
+"\n"
+msgstr ""
+".SH NOTES\n"
+"\n"
+
+#: src/callbacks.c:1054
+msgid ""
+".SH BUGS\n"
+"\n"
+msgstr ""
+".SH BUGS\n"
+"\n"
+
+#: src/callbacks.c:1058
+#, fuzzy
+msgid ""
+".SH EXAMPLE\n"
+"\n"
+msgstr ".SH EXAMPLES\n"
+
+#: src/callbacks.c:1062
+#, fuzzy
+msgid ""
+".SH \"SEE ALSO\"\n"
+"\n"
+msgstr ""
+".SH SEE ALSO\n"
+"\n"
+
+#: src/callbacks.c:1068
+#, fuzzy
+msgid "Wizard page created."
+msgstr "Vägvisarsida skapad"
+
+#: src/callbacks.c:1126
+msgid "Man help."
+msgstr "Hjälp för manualsidor."
+
+#: src/callbacks.c:1148
+#, fuzzy
+msgid "File opened."
+msgstr "Fil öppnas."
+
+#: src/support.c:93
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kunde inte hitta bildfil: %s"
+
+#: src/support.c:100
+#, c-format
+msgid "Failed to load pixbuf file: %s: %s\n"
+msgstr ""
+
+#~ msgid "Usage"
+#~ msgstr "Användning"
+
+#~ msgid "Diagnostics"
+#~ msgstr "Diagnostik"
+
+#~ msgid "Security"
+#~ msgstr "Säkerhet"
+
+#~ msgid "Author"
+#~ msgstr "Upphovsman"
+
+#~ msgid "Other"
+#~ msgstr "Övrigt"
+
+#~ msgid "Start a margin"
+#~ msgstr "Starta en marginal"
+
+#~ msgid "A HREF"
+#~ msgstr "A HREF"
+
+#~ msgid "A NAME"
+#~ msgstr "A NAME"
+
+#~ msgid "Like .SH"
+#~ msgstr "Liknande .SH"
+
+#~ msgid "Empty lines"
+#~ msgstr "Tomma rader"
+
+#~ msgid "Section"
+#~ msgstr "Sektion"
+
+#~ msgid "Justify"
+#~ msgstr "Justera"
+
+#~ msgid "Filling"
+#~ msgstr "Fyllnad"
+
+#~ msgid "Font"
+#~ msgstr "Typsnitt"
+
+#~ msgid "Paragraphs"
+#~ msgstr "Paragrafer"
+
+#~ msgid "Margin"
+#~ msgstr "Marginal"
+
+#~ msgid "Hypertext"
+#~ msgstr "Hypertext"
+
+#~ msgid "Not available"
+#~ msgstr "Inte tillgänglig"
+
+#~ msgid "Others"
+#~ msgstr "Övriga"
+
+#~ msgid "_Insert"
+#~ msgstr "_Lägg in"
+
+#~ msgid "New"
+#~ msgstr "Ny"
+
+#~ msgid "New page"
+#~ msgstr "Ny sida"
+
+#~ msgid "Open page"
+#~ msgstr "Öppna sida"
+
+#~ msgid "Save current page"
+#~ msgstr "Spara nuvarande sida"
+
+#~ msgid "Cut selected text"
+#~ msgstr "Klipp ut markerad text"
+
+#~ msgid "Copy selected text"
+#~ msgstr "Kopiera markerad text"
+
+#~ msgid "Paste from clipboard"
+#~ msgstr "Klistra in från urklipp"
+
+#~ msgid "Exit"
+#~ msgstr "Avsluta"
+
+#~ msgid "Exit from gmanedit"
+#~ msgstr "Avsluta programmet"
+
+#~ msgid "_Replace"
+#~ msgstr "_Ersätt"
+
+#~ msgid "_Close"
+#~ msgstr "S_täng"
+
+#~ msgid "G.P.U.L. 2000-2001 Sergio Rua"
+#~ msgstr "G.P.U.L. 2000-2001 Sergio Rua"
+
+#~ msgid "netscape"
+#~ msgstr "netscape"
+
+#~ msgid "mozilla"
+#~ msgstr "mozilla"
+
+#~ msgid "galeon"
+#~ msgstr "galeon"
+
+#~ msgid "gnome-help-browser"
+#~ msgstr "gnome-help-browser"
+
+#~ msgid "Select your internet browser from this list"
+#~ msgstr "Välj din webbläsare från listan"
+
+#~ msgid "Use gnome-help-browser"
+#~ msgstr "Använd gnome-help-browser"
+
+#~ msgid "Wizard"
+#~ msgstr "Vägvisare"
+
+#~ msgid "Short name to the man page (example: gmanedit)"
+#~ msgstr "Kort namn för manualsida (exempel: gmanedit)"
+
+#~ msgid "Creation date (default today)"
+#~ msgstr "Skapad den (förval är dagens datum)"
+
+#~ msgid "Long man page name or title"
+#~ msgstr "Långt namn eller titel för manualsida"
+
+#~ msgid "First_Name Last_Name <my@email.com>"
+#~ msgstr "Förnamn Efternamn <min@e-post.se>"
+
+#~ msgid "Author:"
+#~ msgstr "Upphovsman:"
+
+#~ msgid "Section 7: Macro packages and Coventions"
+#~ msgstr "Sektion 7: Makropaket och konventioner"
+
+#~ msgid "Section 9: Kernel routines"
+#~ msgstr "Sektion 9: Kärnrutiner"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "Select section number"
+#~ msgstr "Välj sektionsnummer"
+
+#~ msgid "ERROR HANDLING"
+#~ msgstr "FELHANTERING"
+
+#~ msgid "USAGE"
+#~ msgstr "ANVÄNDNING"
+
+#~ msgid "ERRORS"
+#~ msgstr "FEL"
+
+#~ msgid "OPTIONS"
+#~ msgstr "FLAGGOR"
+
+#~ msgid "AUTHOR"
+#~ msgstr "UPPHOVSMAN"
+
+#~ msgid "DIAGNOSTICS"
+#~ msgstr "DIAGNOSTIK"
+
+#~ msgid "SECURITY"
+#~ msgstr "SÄKERHET"
+
+#~ msgid "New File."
+#~ msgstr "Ny fil."
+
+#~ msgid ".SH USAGE\n"
+#~ msgstr ".SH USAGE\n"
+
+#~ msgid ".SH DIAGNOSTICS\n"
+#~ msgstr ".SH DIAGNOSTICS\n"
+
+#~ msgid ".SH SECURITY\n"
+#~ msgstr ".SH SECURITY\n"
+
+#~ msgid ".SH AUTHOR\n"
+#~ msgstr ".SH AUTHOR\n"
+
+#~ msgid ""
+#~ ".UR <address>\n"
+#~ ".UE\n"
+#~ msgstr ""
+#~ ".UR <address>\n"
+#~ ".UE\n"
+
+#~ msgid ".UN <address>\n"
+#~ msgstr ".UN <address>\n"
+
+#~ msgid "Mars"
+#~ msgstr "Mars"
+
+#~ msgid ""
+#~ ".SH USAGE\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH USAGE\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH DIAGNOSTICS\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH DIAGNOSTICS\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH SECURITY\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH SECURITY\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH ERROR HANDLING\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH ERROR HANDLING\n"
+#~ "\n"
+
+#~ msgid "Cannot be opened this Internet Browser"
+#~ msgstr "Kan inte öppna den här webbläsaren"
+
+#~ msgid "Couldn't create pixmap from file: %s"
+#~ msgstr "Kunde inte skapa bild från fil: %s"

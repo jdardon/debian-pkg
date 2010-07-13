@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: EditObj
+Version: 0.5.7
+Summary: EditObj can create a dialog box to edit ANY Python object.
+Home-page: http://oomadness.tuxfamily.org/en/editobj
+Author: Lamy Jean-Baptiste (Jiba)
+Author-email: jiba@tuxfamily.org
+License: GPL
+Description: EditObj is an automatic GUI generator, similar to Java Bean but designed for Python objects.
+        It can create a dialog box to edit ANY object.
+        It also includes a Tk tree widget, an event and a multiple undo-redo frameworks.
+Platform: UNKNOWN

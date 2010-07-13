@@ -1,0 +1,20 @@
+Source: songwrite
+Section: sound
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 5), cdbs (>= 0.4.62~), python, python-support
+XS-Python-Version: all
+Standards-Version: 3.8.4
+Homepage: http://home.gna.org/oomadness/en/songwrite/
+
+Package: songwrite
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-editobj (>= 0.5.6-1), python-tk (>= 2.3), lilypond (>= 2.4), evince | postscript-viewer, timidity | playmidi | pmidi
+Description: guitar tablature editor and player
+ Songwrite is a guitar tablature (fingering notation) editor and player,
+ quite similar to TablEdit. In addition to tablatures, it also supports
+ staff, lyrics and drums.
+ .
+ Printing support and playback are available through external programs.
+ .
+ Songwrite was formerly know as GTablature.

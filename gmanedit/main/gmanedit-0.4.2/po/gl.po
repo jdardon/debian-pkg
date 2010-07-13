@@ -1,0 +1,1155 @@
+# Galician translation team.
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Sergio Rua <srua@iname.com>, 1999.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gmanedit 0.3\n"
+"Report-Msgid-Bugs-To: pg4i@amsat.org\n"
+"POT-Creation-Date: 2008-11-03 19:16+0100\n"
+"PO-Revision-Date: 20-06-2000 00:00+0200\n"
+"Last-Translator: Sergio Rua <srua@iname.com>\n"
+"Language-Team: Galician <trasno@ceu.fi.udc.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/interface.c:37
+msgid "_New"
+msgstr "_Novo"
+
+#: src/interface.c:38
+msgid "New _Wizard page"
+msgstr "Nova páxina có Asistente"
+
+#: src/interface.c:39
+#, fuzzy
+msgid "_Open..."
+msgstr "Abrir"
+
+#: src/interface.c:40
+#, fuzzy
+msgid "_Save"
+msgstr "Gardar"
+
+#: src/interface.c:41
+msgid "Save _As..."
+msgstr ""
+
+#: src/interface.c:42
+msgid "_Quit"
+msgstr ""
+
+#: src/interface.c:44
+#, fuzzy
+msgid "Cu_t"
+msgstr "Cortar"
+
+#: src/interface.c:45
+#, fuzzy
+msgid "_Copy"
+msgstr "Copiar"
+
+#: src/interface.c:46
+#, fuzzy
+msgid "_Paste"
+msgstr "Pegar"
+
+#: src/interface.c:47
+msgid "_Select All"
+msgstr "Seleccionar todo"
+
+#: src/interface.c:49
+#, fuzzy
+msgid "Basic Page"
+msgstr "Páxina base"
+
+#: src/interface.c:50
+#, fuzzy
+msgid "Titel"
+msgstr "Título"
+
+#: src/interface.c:51
+msgid "Date"
+msgstr "Data"
+
+#: src/interface.c:53
+msgid "Name"
+msgstr "Nome"
+
+#: src/interface.c:54
+msgid "Synopsis"
+msgstr "Sinopsis"
+
+#: src/interface.c:55
+#, fuzzy
+msgid "Configuration"
+msgstr "Conforme a"
+
+#: src/interface.c:56
+msgid "Description"
+msgstr "Descripción"
+
+#: src/interface.c:57
+msgid "Options"
+msgstr "Opcións"
+
+#: src/interface.c:58
+#, fuzzy
+msgid "Return value"
+msgstr "Valores devoltos"
+
+#: src/interface.c:59
+msgid "Exit status"
+msgstr "Estados de saída"
+
+#: src/interface.c:60
+msgid "Errors"
+msgstr ""
+
+#: src/interface.c:61
+msgid "Environment"
+msgstr "Entorno"
+
+#: src/interface.c:62
+#, fuzzy
+msgid "Files"
+msgstr "Ficheiro"
+
+#: src/interface.c:63
+msgid "Versions"
+msgstr ""
+
+#: src/interface.c:64
+msgid "Conforming to"
+msgstr "Conforme a"
+
+#: src/interface.c:65
+msgid "Notes"
+msgstr "Notas"
+
+#: src/interface.c:66
+msgid "Bugs"
+msgstr "Erros"
+
+#: src/interface.c:67
+#, fuzzy
+msgid "Example"
+msgstr "Exemplos"
+
+#: src/interface.c:68
+msgid "See also"
+msgstr "Ver tamén"
+
+#: src/interface.c:70
+msgid "Left"
+msgstr "Esquerda"
+
+#: src/interface.c:71
+msgid "Both"
+msgstr "Ambos"
+
+#: src/interface.c:73
+msgid "Enable"
+msgstr "Activar"
+
+#: src/interface.c:74
+msgid "Disable"
+msgstr "Desactivar"
+
+#: src/interface.c:76
+msgid "Bold"
+msgstr ""
+
+#: src/interface.c:77
+msgid "Bold - Roman"
+msgstr ""
+
+#: src/interface.c:78
+msgid "Italic"
+msgstr ""
+
+#: src/interface.c:79
+msgid "Italic - Bold"
+msgstr ""
+
+#: src/interface.c:80
+msgid "Italic - Roman"
+msgstr ""
+
+#: src/interface.c:81
+msgid "Roman - Bold"
+msgstr ""
+
+#: src/interface.c:82
+msgid "Roman - Italic"
+msgstr ""
+
+#: src/interface.c:83
+msgid "Small - Bold"
+msgstr ""
+
+#: src/interface.c:84
+msgid "Small"
+msgstr ""
+
+#: src/interface.c:86
+#, fuzzy
+msgid "New Paragraph"
+msgstr "Novo párrafo"
+
+#: src/interface.c:87
+#, fuzzy
+msgid "Paragraph Start"
+msgstr "Comezo do párrafo"
+
+#: src/interface.c:89
+msgid "Margin start"
+msgstr "Comezo do marxen"
+
+#: src/interface.c:90
+msgid "Margin end"
+msgstr "Fin do marxen"
+
+#: src/interface.c:92
+msgid "Default tabs"
+msgstr "Tabulador por defecto"
+
+#: src/interface.c:93
+msgid "Subheader"
+msgstr "Subcabeceira"
+
+#: src/interface.c:94
+msgid "Comments"
+msgstr ""
+
+#: src/interface.c:96
+#, fuzzy
+msgid "View created page"
+msgstr "Páxina creada"
+
+#: src/interface.c:97
+#, fuzzy
+msgid "_Preferences"
+msgstr "Preferencias"
+
+#: src/interface.c:99
+msgid "H_elp"
+msgstr "A_xuda"
+
+#: src/interface.c:100
+#, fuzzy
+msgid "_Home page"
+msgstr "Nova páxina"
+
+#: src/interface.c:101
+msgid "_About"
+msgstr ""
+
+#: src/interface.c:213
+msgid "Gmanedit - Gnome manpages editor"
+msgstr ""
+
+#: src/interface.c:272
+#, fuzzy
+msgid "Gmanedit - Select file"
+msgstr "Escolle ficheiro"
+
+#: src/interface.c:289
+#, fuzzy
+msgid "Gmanedit - Saving file"
+msgstr "Salvando ó ficheiro"
+
+#: src/interface.c:319
+#, fuzzy
+msgid "Gmanedit - Search and replace"
+msgstr "Buscar é reemprazar"
+
+#: src/interface.c:332
+msgid "Search:         "
+msgstr "Buscar:        "
+
+#: src/interface.c:340 src/interface.c:354
+msgid "Option not yet available"
+msgstr "Opción non dispoñible"
+
+#: src/interface.c:346
+msgid "Replace with: "
+msgstr "Reemprazar por: "
+
+#: src/interface.c:422
+#, fuzzy
+msgid "Man Pages Editor"
+msgstr "Título da páxina:"
+
+#: src/interface.c:439
+#, fuzzy
+msgid "Gmanedit - Exit"
+msgstr "Escolle ficheiro"
+
+#: src/interface.c:442
+msgid "Exit from gmanedit?"
+msgstr "¿Saír do gmanedit?"
+
+#: src/interface.c:480
+#, fuzzy
+msgid "Gmanedit - Preferences"
+msgstr "Escolle ficheiro"
+
+#: src/interface.c:493
+#, fuzzy
+msgid "Command to test created man pages: "
+msgstr "Comando para ver as páxinas creadas: "
+
+#: src/interface.c:502
+msgid "xterm -e man "
+msgstr ""
+
+#: src/interface.c:506
+msgid "Internet browser"
+msgstr "Navegador de Internet"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "January"
+msgstr "Xaneiro"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "February"
+msgstr "Febreiro"
+
+#: src/interface.c:583 src/callbacks.c:762
+#, fuzzy
+msgid "March"
+msgstr "_Buscar"
+
+#: src/interface.c:583 src/callbacks.c:762
+msgid "April"
+msgstr "Abril"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "May"
+msgstr "Maio"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "June"
+msgstr "Xuño"
+
+#: src/interface.c:584 src/callbacks.c:763
+#, fuzzy
+msgid "July"
+msgstr "Xullo"
+
+#: src/interface.c:584 src/callbacks.c:763
+msgid "August"
+msgstr "Agosto"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "September"
+msgstr "Septembro"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "October"
+msgstr "Outubro"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "November"
+msgstr "Novembro"
+
+#: src/interface.c:585 src/callbacks.c:764
+msgid "December"
+msgstr "Dicembro"
+
+#: src/interface.c:590
+#, fuzzy
+msgid "Gmanedit - Wizard"
+msgstr "Escolle ficheiro"
+
+#: src/interface.c:594
+#, fuzzy
+msgid ""
+"Welcome to the Gmanedit Man Pages Wizard. Follow the next steps to build a "
+"Basic Man Page"
+msgstr ""
+"Benvido ó Asistente para páxinas Man\n"
+"de Gmanedit. Segue os pasos para construir\n"
+"unha páxina man básica."
+
+#: src/interface.c:598
+msgid "Welcome"
+msgstr "Benvido"
+
+#: src/interface.c:638
+msgid "Creation Date:"
+msgstr "Data de creación:"
+
+#: src/interface.c:644
+msgid "Man page Title:"
+msgstr "Título da páxina:"
+
+#: src/interface.c:650
+msgid "Man page Name:"
+msgstr "Nome da páxina:"
+
+#: src/interface.c:657
+msgid "Step 1: Basic Information"
+msgstr "Paso 1: Información de base"
+
+#: src/interface.c:668
+#, fuzzy
+msgid "There are 8 sections for man pages. Select one:"
+msgstr "Hai 9 seccións para páxinas do manual. Seleccione unha:"
+
+#: src/interface.c:674
+msgid "Section 1: Commands"
+msgstr "Sección 1: Comandos"
+
+#: src/interface.c:679
+msgid "Section 2: System calls"
+msgstr "Sección 2: Chamadas ó sistema"
+
+#: src/interface.c:684
+msgid "Section 3: Library calls"
+msgstr "Sección 3: Chamadas a librerías"
+
+#: src/interface.c:689
+#, fuzzy
+msgid "Section 4: Special files (devices)"
+msgstr "Sección 4: Ficheiros especiais"
+
+#: src/interface.c:695
+#, fuzzy
+msgid "Section 5: File formats and conventions"
+msgstr "Sección 5: Formato de ficheiros e convencións"
+
+#: src/interface.c:700
+msgid "Section 6: Games"
+msgstr "Sección 6: Xogos"
+
+#: src/interface.c:705
+msgid "Section 7: Conventions and miscellaneous"
+msgstr ""
+
+#: src/interface.c:710
+msgid "Section 8: System management commands"
+msgstr "Sección 8: Comandos para o manexo do sistema"
+
+#: src/interface.c:716
+msgid "Section number"
+msgstr "Número de sección"
+
+#: src/interface.c:736
+msgid "Step 2: Section number"
+msgstr "Paso 2: Número de sección"
+
+#: src/interface.c:747
+msgid "What sections would you like include?"
+msgstr "¿Que seccións quere vostede incluir?"
+
+#: src/interface.c:751
+msgid "NAME"
+msgstr "NOME"
+
+#: src/interface.c:757
+msgid "SYNOPSIS"
+msgstr "SINOPSIS"
+
+#: src/interface.c:763
+msgid ""
+"CONFIGURATION\n"
+"(Section 4)"
+msgstr ""
+
+#: src/interface.c:768
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+#: src/interface.c:774
+msgid ""
+"OPTIONS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:780
+msgid ""
+"EXIT STATUS\n"
+"(Section 1/8)"
+msgstr ""
+
+#: src/interface.c:786
+#, fuzzy
+msgid ""
+"RETURN VALUE\n"
+"(Section 2/3)"
+msgstr "VALORES DEVOLTOS"
+
+#: src/interface.c:791
+msgid ""
+"ERRORS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:796
+msgid "ENVIRONMENT"
+msgstr "ENTORNO"
+
+#: src/interface.c:801
+msgid "FILES"
+msgstr "FICHEIROS"
+
+#: src/interface.c:806
+msgid ""
+"VERSIONS\n"
+"(Section 2/3)"
+msgstr ""
+
+#: src/interface.c:812
+msgid "CONFORMING TO"
+msgstr "CONFORME A"
+
+#: src/interface.c:817
+msgid "NOTES"
+msgstr "NOTAS"
+
+#: src/interface.c:822
+msgid "BUGS"
+msgstr "BUGS"
+
+#: src/interface.c:827
+#, fuzzy
+msgid "EXAMPLE"
+msgstr ".SH EXEMPLOS\n"
+
+#: src/interface.c:832
+msgid "SEE ALSO"
+msgstr "VER TAMÉN"
+
+#: src/interface.c:839
+msgid "Step 3: Man Sections"
+msgstr "Paso 3: Seccións do manual"
+
+#: src/interface.c:844
+#, fuzzy
+msgid ""
+"Thank you for using me! You can now edit the man page with gmanedit to "
+"change and complete the text"
+msgstr ""
+"¡Gracias por empregarme!\n"
+"Agora pode editar a páxina do manual\n"
+"co gmanedit para cambiar e completar\n"
+"o texto."
+
+#: src/interface.c:848
+msgid "The End"
+msgstr "Fin"
+
+#: src/callbacks.c:85
+#, fuzzy
+msgid "Text cut."
+msgstr "Texto cortado."
+
+#: src/callbacks.c:100
+msgid "Text copied."
+msgstr "Texto copiado."
+
+#: src/callbacks.c:117
+msgid "Text pasted."
+msgstr "Texto pegado."
+
+#: src/callbacks.c:126
+#, fuzzy
+msgid ""
+".\\\"Created with GNOME Manpages Editor\n"
+".\\\"http://sourceforge.net/projects/gmanedit2\n"
+"\n"
+".\\\"Replace <program> with the program name, x with the Section Number\n"
+".TH <program> x \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+".SH NAME\n"
+"<program> \\- program for...\n"
+"\n"
+"..SH SYNOPSIS\n"
+".B <program>\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+".SH DESCRIPTION\n"
+"This manual page explains the \\fB<program>\\fP program. The \\fB<program>"
+"\\fP program is for...\n"
+"\n"
+".SH OPTIONS\n"
+".IP \\fB\\-OPTION\\fP\n"
+"This option...\n"
+"\n"
+".SH NOTES\n"
+"\n"
+".SH \"SEE ALSO\"\n"
+msgstr ""
+".\\\"Creada co editor de páxinas man de GNOME (gmanedit)\n"
+".\\\"http://gmanedit.sourceforge.net\n"
+".\\\"Sergio Rua <srua@gpul.org>\n"
+".\\\"\n"
+".TH programa <nº seccion> \"<data>\" \"<título>\"\n"
+"\n"
+".SH NOME\n"
+"<programa> \\-programa para...\n"
+"\n"
+".SH SINOPSIS\n"
+".B <programa>\n"
+".RI [ opcións ]\n"
+".br\n"
+"\n"
+".SH DESCRIPCION\n"
+"Esta páxina de manual explica o\n"
+".B <programa>\n"
+"programa. Este programa...\n"
+".PP\n"
+"\\fB<programa>\\fP é para...\n"
+"\n"
+".SH OPCIÓNS\n"
+".B\n"
+".IP -OPCIÓN\n"
+"Esta opcion...\n"
+"\n"
+".SH LICENCIA\n"
+"\n"
+".SH ERROS\n"
+"\n"
+".SH AUTOR\n"
+
+#: src/callbacks.c:153
+msgid "New file."
+msgstr "Novo ficheiro."
+
+#: src/callbacks.c:272
+msgid "File saved."
+msgstr "Ficheiro gardado."
+
+#: src/callbacks.c:276
+msgid "File NOT saved."
+msgstr "Ficheiro NON gardado."
+
+#: src/callbacks.c:289
+#, fuzzy
+msgid ""
+".TH <program> <section number> \"<date>\" \"\" \"Linux User's Manual\"\n"
+"\n"
+msgstr ""
+".TH programa <nº seccion> \"<data>\" \"<título>\"\n"
+"\n"
+
+#: src/callbacks.c:299
+#, fuzzy
+msgid ""
+".SH NAME\n"
+"<program> \\- program for... \n"
+msgstr ""
+".SH NOME programa\n"
+"<programa> \\- programa para... \n"
+
+#: src/callbacks.c:309
+msgid ".SH SYNOPSIS\n"
+msgstr ".SH SINOPSIS\n"
+
+#: src/callbacks.c:319
+#, fuzzy
+msgid ".SH CONFIGURATION\n"
+msgstr ""
+".SH CONFORME A\n"
+"\n"
+
+#: src/callbacks.c:328
+msgid ".SH DESCRIPTION\n"
+msgstr ".SH DESCRIPCIÓN\n"
+
+#: src/callbacks.c:338
+msgid ".SH OPTIONS\n"
+msgstr ".SH OPCIÓNS\n"
+
+#: src/callbacks.c:348
+#, fuzzy
+msgid ".SH \"RETURN VALUE\"\n"
+msgstr ".SH VALORES DEVOLTOS\n"
+
+#: src/callbacks.c:358
+#, fuzzy
+msgid ".SH \"EXIT STATUS\"\n"
+msgstr ".SH ESTADOS DE SAÍDA\n"
+
+#: src/callbacks.c:367
+#, fuzzy
+msgid ".SH ERRORS\n"
+msgstr ""
+".SH ERROS\n"
+"\n"
+
+#: src/callbacks.c:377
+msgid ".SH FILES\n"
+msgstr ".SH FICHEIROS\n"
+
+#: src/callbacks.c:386
+msgid ".SH ENVIRONMENT\n"
+msgstr ".SH ENTORNO\n"
+
+#: src/callbacks.c:395
+#, fuzzy
+msgid ".SH VERSIONS\n"
+msgstr ""
+".SH ERROS\n"
+"\n"
+
+#: src/callbacks.c:404
+msgid ".SH NOTES\n"
+msgstr ".SH NOTAS\n"
+
+#: src/callbacks.c:413
+msgid ".SH BUGS\n"
+msgstr ".SH ERROS\n"
+
+#: src/callbacks.c:422
+#, fuzzy
+msgid ".SH EXAMPLE\n"
+msgstr ".SH EXEMPLOS\n"
+
+#: src/callbacks.c:432
+#, fuzzy
+msgid ".SH \"SEE ALSO\"\n"
+msgstr ".SH VER TAMÉN\n"
+
+#: src/callbacks.c:441
+#, fuzzy
+msgid ".SH \"CONFORMING TO\"\n"
+msgstr ".SH CONFORME A\n"
+
+#: src/callbacks.c:458
+#, fuzzy
+msgid ".SH \"<SECTION NAME>\"\n"
+msgstr ".SH <NOME DE SECCIÓN>\n"
+
+#: src/callbacks.c:593
+msgid ".RS <margin position>\n"
+msgstr ".RS <posición do marxen>\n"
+
+#: src/callbacks.c:620
+#, fuzzy
+msgid ".SS \"<NAME>\"\n"
+msgstr ".SS <NOME>\n"
+
+#: src/callbacks.c:660
+msgid "Page preview."
+msgstr "Previsualización."
+
+#: src/callbacks.c:780
+msgid "Date inserted."
+msgstr "Data insertada."
+
+#: src/callbacks.c:783
+msgid "Cannot get system date!"
+msgstr "¡Non se puido obtela data do sistema!"
+
+#: src/callbacks.c:914
+msgid "Text selected."
+msgstr "Texto cortado."
+
+#: src/callbacks.c:986
+msgid ".SH NAME\n"
+msgstr ".SH NOME>\n"
+
+#: src/callbacks.c:988
+#, fuzzy
+msgid ""
+" \\- program for...\n"
+"\n"
+msgstr ""
+" \\-programa para...\n"
+"\n"
+
+#: src/callbacks.c:994
+msgid ""
+".SH SYNOPSIS\n"
+".B "
+msgstr ""
+".SH SINOPSIS\n"
+".B "
+
+#: src/callbacks.c:996
+msgid ""
+"\n"
+".RI [ options ]\n"
+".br\n"
+"\n"
+msgstr ""
+"\n"
+".RI [ opcións ]\n"
+".br\n"
+"\n"
+
+#: src/callbacks.c:1001
+#, fuzzy
+msgid ""
+".SH CONFIGURATION\n"
+"\n"
+msgstr ""
+".SH CONFORME A\n"
+"\n"
+
+#: src/callbacks.c:1006
+msgid ""
+".SH DESCRIPTION\n"
+"This manual page explains the\n"
+".B "
+msgstr ""
+".SH DESCRIPCIÓN\n"
+"Esta páxina do manual explica o\n"
+".B "
+
+#: src/callbacks.c:1008
+msgid ""
+"\n"
+"program. This program...\n"
+".PP\n"
+"\\fB"
+msgstr ""
+"\n"
+"programa. Este programa...\n"
+".PP\n"
+"\\fB"
+
+#: src/callbacks.c:1010
+msgid ""
+"\\fP is for...\n"
+"\n"
+msgstr ""
+"\\fP é para...\n"
+"\n"
+
+#: src/callbacks.c:1015
+msgid ""
+".SH OPTIONS\n"
+".B\n"
+".IP -OPTION\n"
+"This option...\n"
+"\n"
+msgstr ""
+".SH OPCIÓNS\n"
+".B\n"
+".IP -OPCIÓN\n"
+"Esta opción...\n"
+"\n"
+
+#: src/callbacks.c:1019
+#, fuzzy
+msgid ""
+".SH \"EXIT STATUS\"\n"
+"\n"
+msgstr ".SH ESTADOS DE SAÍDA\n"
+
+#: src/callbacks.c:1029
+msgid ""
+".SH ERRORS\n"
+"\n"
+msgstr ""
+".SH ERROS\n"
+"\n"
+
+#: src/callbacks.c:1033
+msgid ""
+".SH ENVIRONMENT\n"
+"\n"
+msgstr ""
+".SH ENTORNO\n"
+"\n"
+
+#: src/callbacks.c:1037
+msgid ""
+".SH FILES\n"
+"\n"
+msgstr ""
+".SH FICHEIROS\n"
+"\n"
+
+#: src/callbacks.c:1041
+#, fuzzy
+msgid ""
+".SH VERSIONS\n"
+"\n"
+msgstr ""
+".SH ERROS\n"
+"\n"
+
+#: src/callbacks.c:1046
+#, fuzzy
+msgid ""
+".SH \"CONFORMING TO\"\n"
+"\n"
+msgstr ""
+".SH CONFORME A\n"
+"\n"
+
+#: src/callbacks.c:1050
+msgid ""
+".SH NOTES\n"
+"\n"
+msgstr ""
+".SH NOTAS\n"
+"\n"
+
+#: src/callbacks.c:1054
+msgid ""
+".SH BUGS\n"
+"\n"
+msgstr ""
+".SH ERROS\n"
+"\n"
+
+#: src/callbacks.c:1058
+#, fuzzy
+msgid ""
+".SH EXAMPLE\n"
+"\n"
+msgstr ".SH EXEMPLOS\n"
+
+#: src/callbacks.c:1062
+#, fuzzy
+msgid ""
+".SH \"SEE ALSO\"\n"
+"\n"
+msgstr ""
+".SH VER TAMÉN\n"
+"\n"
+
+#: src/callbacks.c:1068
+#, fuzzy
+msgid "Wizard page created."
+msgstr "Nova páxina có Asistente"
+
+#: src/callbacks.c:1126
+msgid "Man help."
+msgstr "Axuda de 'man'"
+
+#: src/callbacks.c:1148
+#, fuzzy
+msgid "File opened."
+msgstr "Apertura ficheiro."
+
+#: src/support.c:93
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Non se puido atopar o pixmap: %s"
+
+#: src/support.c:100
+#, c-format
+msgid "Failed to load pixbuf file: %s: %s\n"
+msgstr ""
+
+#~ msgid "Usage"
+#~ msgstr "Emprego"
+
+#~ msgid "Diagnostics"
+#~ msgstr "Diagnósticos"
+
+#~ msgid "Security"
+#~ msgstr "Seguridade"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Other"
+#~ msgstr "Outro"
+
+#~ msgid "Empty lines"
+#~ msgstr "Líneas en branco"
+
+#~ msgid "Author:"
+#~ msgstr "Autor"
+
+#~ msgid ".SH USAGE\n"
+#~ msgstr ".SH EMPREGO\n"
+
+#~ msgid ".SH DIAGNOSTICS\n"
+#~ msgstr ".SH DIAGNÓSTICOS\n"
+
+#~ msgid ".SH SECURITY\n"
+#~ msgstr ".SH SEGURIDADE\n"
+
+#~ msgid ".SH AUTHOR\n"
+#~ msgstr ".SH AUTOR\n"
+
+#~ msgid ""
+#~ ".UR <address>\n"
+#~ ".UE\n"
+#~ msgstr ""
+#~ ".UR <dirección url>\n"
+#~ ".UE\n"
+
+#~ msgid ".UN <address>\n"
+#~ msgstr ".UN <dirección>\n"
+
+#, fuzzy
+#~ msgid "Can not open Internet Browser"
+#~ msgstr "Non se puido abrir o Navegador de Internet"
+
+#~ msgid "_Search"
+#~ msgstr "_Buscar"
+
+#, fuzzy
+#~ msgid "_Replace"
+#~ msgstr "_Reemprazar"
+
+#~ msgid "_Close"
+#~ msgstr "_Pechar"
+
+#, fuzzy
+#~ msgid "yelp"
+#~ msgstr "A_xuda"
+
+#~ msgid "Select your internet browser from this list"
+#~ msgstr "Seleccione o seu navegador de internet da lista"
+
+#~ msgid "Mars"
+#~ msgstr "Marzo"
+
+#~ msgid "Jule"
+#~ msgstr "Xullo"
+
+#~ msgid "Short name to the man page (example: gmanedit)"
+#~ msgstr "Nome curto para a páxina do manual (exemplo: gmanedit)"
+
+#~ msgid "Creation date (default today)"
+#~ msgstr "Data de creación (por defecto hoxe)"
+
+#~ msgid "Long man page name or title"
+#~ msgstr "Nome largo ou título para a páxina"
+
+#~ msgid "First_Name Last_Name <my@email.com>"
+#~ msgstr "Nome Apelido <nome@dominio.com>"
+
+#~ msgid "Section 7: Macro packages and Coventions"
+#~ msgstr "Sección 7: Macro paquetes e convencións"
+
+#~ msgid "Section 9: Kernel routines"
+#~ msgstr "Sección 9: rutinas do kernel"
+
+#~ msgid "Select section number"
+#~ msgstr "Número de sección"
+
+#~ msgid "ERROR HANDLING"
+#~ msgstr "XESTIÓN DE ERROS"
+
+#~ msgid "USAGE"
+#~ msgstr "EMPREGO"
+
+#~ msgid "ERRORS"
+#~ msgstr "ERROS"
+
+#~ msgid "OPTIONS"
+#~ msgstr "OPCIÓNS"
+
+#~ msgid "AUTHOR"
+#~ msgstr "AUTOR"
+
+#~ msgid "DIAGNOSTICS"
+#~ msgstr "DIAGNÓSTICOS"
+
+#~ msgid "SECURITY"
+#~ msgstr "SEGURIDADE"
+
+#~ msgid "New File."
+#~ msgstr "Novo ficheiro."
+
+#~ msgid ""
+#~ ".SH USAGE\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH EMPREGO\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH DIAGNOSTICS\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH DIAGNÓSTICOS\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH SECURITY\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH SEGURIDADE\n"
+#~ "\n"
+
+#~ msgid ""
+#~ ".SH ERROR HANDLING\n"
+#~ "\n"
+#~ msgstr ""
+#~ ".SH XESTIÓN DE ERROS\n"
+#~ "\n"
+
+#~ msgid "Start a margin"
+#~ msgstr "Comeza un marxen"
+
+#~ msgid "Like .SH"
+#~ msgstr "Como .SH"
+
+#~ msgid "Section"
+#~ msgstr "Sección"
+
+#, fuzzy
+#~ msgid "Justify"
+#~ msgstr "Xustificación"
+
+#~ msgid "Filling"
+#~ msgstr "Recheo"
+
+#~ msgid "Font"
+#~ msgstr "Fonte"
+
+#~ msgid "Paragraphs"
+#~ msgstr "Párrafos"
+
+#~ msgid "Margin"
+#~ msgstr "Marxen"
+
+#~ msgid "Hypertext"
+#~ msgstr "Hipertexto"
+
+#~ msgid "Not available"
+#~ msgstr "Non dispoñible"
+
+#~ msgid "Others"
+#~ msgstr "Outros"
+
+#~ msgid "_Insert"
+#~ msgstr "_Insertar"
+
+#~ msgid "New"
+#~ msgstr "Novo"
+
+#~ msgid "Open page"
+#~ msgstr "Abrir páxina"
+
+#~ msgid "Save current page"
+#~ msgstr "Gardar páxina actual"
+
+#~ msgid "Cut selected text"
+#~ msgstr "Cortar o texto seleccionado"
+
+#~ msgid "Copy selected text"
+#~ msgstr "Copiar o texto seleccionado"
+
+#~ msgid "Paste from clipboard"
+#~ msgstr "Pegar dende o portapapeis"
+
+#~ msgid "Exit"
+#~ msgstr "Saír"
+
+#~ msgid "Exit from gmanedit"
+#~ msgstr "¿Saír do gmanedit?"
+
+#~ msgid "Wizard"
+#~ msgstr "Asistente"
+
+#~ msgid "Use gnome-help-browser"
+#~ msgstr "Empregar gnome-help-browser"
+
+#~ msgid "Couldn't create pixmap from file: %s"
+#~ msgstr "Non se puido crear o pixmap dende o ficheiro: %s"

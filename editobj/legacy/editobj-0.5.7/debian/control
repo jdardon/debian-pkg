@@ -1,0 +1,20 @@
+Source: editobj
+Section: python
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), python, python-support
+Standards-Version: 3.8.4
+Homepage: http://home.gna.org/oomadness/en/editobj/
+
+Package: python-editobj
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-tk
+Description: Python object editor
+ EditObj can create and display a Tkinter dialog box for editing any
+ Python object (similarly to what Java call a Bean editor, but for
+ Python object). EditObj is a useful tool for writing (text or
+ non-text) editors of all kinds, including GUI editor, 3D editor,...
+ .
+ In terms of MVC (Model View Controler), EditObj is a generic View
+ coupled with a universal Controler.
+

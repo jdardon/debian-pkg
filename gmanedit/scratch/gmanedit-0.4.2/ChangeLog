@@ -1,0 +1,74 @@
+gmanedit (0.4.2)
+  * Fix several buffer overflows and crashes.
+  * Swedish translations by Daniel Nylander, thanks!
+  * Patch by François Wendling: Cancelling the wizard now makes it impossible
+    to relaunch later.
+  * Another patch by François Wendling, gmanedit would generate non-standard
+    groff code.
+  * Several buffer overflow fixes by Nico Golde on behalf of the Debian
+    Security Team.
+  * Help now works correctly.
+
+gmanedit (0.4.1)
+  * Moved from GnomeDruid to GtkAssistant API for the wizard pages.
+  * Fixed display of the date in the second page of the wizard.
+  * Moved from GnomeUIInfo to GtkAction and GtkUIManager API for the
+    menu and Toolbar.
+  * Moved from GnomeDialog to GtkDialog API for all the dialogs.
+  * Moved from GtkText to GtkTextView API for the editor.
+  * Moved to GtkFileChooser API for Open and Save As dialogs.
+  * Moved from GtkCombo to GtkComboBox API.
+  * Dropped the Kernel Routines (section 9) in step 2 of the Wizard pages.
+  * Step 3 of the Wizard now has valid sections according to the man-pages
+    manual.
+  * Gmanedit is now without any Gnome dependencies, it builds with the help
+    of GTK+ only. Version 2.10 or higher is needed.
+  * New developer: Anibal Avelar <aavelar@cofradia.org>.
+  * Fixed utf8 errors when reading a file.
+  * Extending the BUFFER_SIZE to 131072. Also the buffer uses the malloc 
+    function to save memory space.
+  * Support for yelp has been removed, yelp has to many bugs, e.g.
+    "yelp man:man(7)" won't work, it will display man.1.
+
+gmanedit (0.4)
+
+  * Gnome2 port of the original program, new maintainer.
+  * Desktop file and manual page added.
+  * All of the windows and dialogs now have an icon.
+
+gmanedit (0.3.3)
+
+  * Added translation to Català
+
+gmanedit (0.3.2)
+
+  * Bug fixed on exec commands
+
+gmanedit (0.3.1)
+
+  * Bug fixed on preferences option. Thanks to Takeshi Aihana
+
+gmanedit (0.3)
+
+  * Drag & Drop function added
+  * Label Comments added
+  * Bug fixed
+
+gmanedit (0.2)
+
+  * Page creation with Wizard
+  * Translation to Japanese
+
+gmanedit (0.1.2)
+
+  * Multilanguges support added
+  * Tranlatios to Galician and Korean added
+
+gmanedit (0.1.1)
+
+  * New upstream release
+
+gmanedit (0.1)
+
+  * Initial Release.
+

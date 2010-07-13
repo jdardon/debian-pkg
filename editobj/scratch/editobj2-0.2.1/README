@@ -1,0 +1,57 @@
+                          EditObj 2
+
+   A Java-Bean-like dialog box generator for Python objects,
+   in Gtk 2 or Tk.
+
+
+EditObj 2 is a dialog box generator for Python objects ; it can work
+with both Gtk2 and Tk. It behaves similarly to a Java Bean editor, but
+is devoted to Python, and it features several improvements. In
+particular, EditObj2 can deal with tree structure in a very efficient
+way.
+
+Well... actually EditObj2 is much more that just a dialog box
+generator. It is somehow a GUI toolkit per se... look at the examples
+directory to see how to use it for designing a configuration dialog
+box, a login window or a file manager !
+
+EditObj 2 includes also a tree widget for Tkinter, an observation
+framework and a mutiple undo/redo framework.
+
+EditObj 2 is a complete rewrite of EditObj 1, and, despite both have
+the same purpose, there is no compatibility between them.
+
+EditObj 2 is entirely written in Python. EditObj is Free Software,
+under the GNU GPL. It has been tested with Python 2.5, although older
+version may work (or not).
+
+
+--- License ---
+EditObj 2 is Free Software.
+It is available under GNU GPL.
+
+
+--- Requirements ---
+ * Python 2.5 (older version should work but have not been tested)
+
+
+--- Installation ---
+Untar the tarball.
+
+EditObj 2 uses Python's DistUtils for installation.
+To install it, type (as root):
+
+cd editobj2-XXX
+python ./setup.py install
+
+By default, EditObj 2 is installed in /usr, you can modify the
+setup.cfg file if you prefer another location.
+
+------
+
+Mail me for any comment, problem, suggestion or help !
+
+
+Jiba -- Jean-Baptiste LAMY -- jibalamy@free.fr
+                              http://home.gna.org/oomadness/
+                              http://home.gna.org/oomadness/en/editobj/index.html

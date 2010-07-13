@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+.PHONY: override_dh_auto_install
+override_dh_auto_install:
+	dh_auto_install
+	mv debian/python-editobj/usr/lib/$(shell pyversions -d)/*-packages/editobj/icons/ debian/python-editobj/usr/share/python-editobj
+	rm -Rf debian/python-editobj/usr/lib/python*/*-packages/editobj/icons/ 
+
+.PHONY: override_dh_fixperms
+override_dh_fixperms:
+	find debian/python-editobj/usr/share/ -type f -exec chmod a-x {} \;
+	dh_fixperms
+
+.PHONY: override_dh_compress
+override_dh_compress:
+	dh_compress -X.py
+
+.PHONY: build build-arch build-indep binary binary-indep clean
+build build-indep binary binary-indep clean:
+	dh $(@)
+# In order not to confuse lintian, *-arch are separate targets:
+build-arch binary-arch:
+

@@ -1,0 +1,177 @@
+editobj (0.5.7-9) unstable; urgency=low
+
+  * QA upload.
+  * Switch from cbds to dh.
+  * Remove superfluous build-dependencies.
+  * Drop no_bytecompilation.patch, no longer needed.
+  * Add dependency on python-tk.
+  * Replace site-packages with *-packages to fix FTBFS with Python 2.6
+    (closes: #571208)
+  * Bump standards version to 3.8.4 (no changes needed). 
+
+ -- Jakub Wilk <jwilk@debian.org>  Mon, 01 Mar 2010 13:32:39 +0100
+
+editobj (0.5.7-8) unstable; urgency=low
+
+  * Orphaned.
+  * Added missing '${misc:Depends}' dependency.
+  * Bumped Standards-Version (no changes).
+  * Fixed reference in copyright file to the right GPL version.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Mon, 30 Mar 2009 23:15:18 +0200
+
+editobj (0.5.7-7) unstable; urgency=low
+
+  * Moved homepage information to new control field.
+  * Increased Standards-Version (no changes).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 27 Jan 2008 18:44:23 +0100
+
+editobj (0.5.7-6) unstable; urgency=low
+
+  * Rebuilt with improved Python tools, added 'debian/pycompat', and
+    removed useless XS-/XB- fields.
+  * Updated URL in 'debian/copyright' and package description.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue, 20 Jun 2006 20:36:06 +0200
+
+editobj (0.5.7-5) unstable; urgency=low
+
+  * Comply with new policy (Closes: #373418).
+  * Switched to debhelper compat 5.
+  * Increased Standards-Version to 3.7.2.0 (no changes).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sat, 17 Jun 2006 02:17:22 +0200
+
+editobj (0.5.7-4) unstable; urgency=low
+
+  * Depends on fixed python-support (>= 0.2).
+  * Build-depends on python-dev instead of python-all-dev (this was a
+    mistake, the current -dev package is needed for distutils, no more,
+    as python-support handle late-bytecompilation) (Closes: #365184).
+  * postrm is now prerm, this was a mistake.
+  * Increased Standards-Version to 3.7.0.0 (no changes).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue,  2 May 2006 13:47:55 +0200
+
+editobj (0.5.7-3) unstable; urgency=low
+
+  * Move python-all-dev from Build-Depends-Indep to Build-Depends, it is
+    needed for clean.
+  * Added 'no_bytecompilation.patch' to avoid
+    bytecompilation/optimization (Thanks to Arnau).
+  * Updated URL in 'debian/copyright'.
+  * Added Homepage to package description.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 27 Apr 2006 15:31:03 +0200
+
+editobj (0.5.7-2) unstable; urgency=low
+
+  * Switched to python-support.
+  * Entering the Python Modules Packaging Team.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Wed, 26 Apr 2006 22:14:37 +0200
+
+editobj (0.5.7-1) unstable; urgency=low
+
+  * New upstream release.
+  * Dropped old Conflicts/Replaces against python2.3-editobj (<< 0.5.3b-
+    3) as 0.5.6-1 is in stable.
+  * Increased Standards-Version to 3.6.2.2 (no changes).
+  * Updated FSF postal address in 'debian/copyright'.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Fri, 31 Mar 2006 01:01:06 +0200
+
+editobj (0.5.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 24 Oct 2004 15:48:53 +0200
+
+editobj (0.5.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Removed '01_install_icons_only_pgm.patch' patch included upstream.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 24 Oct 2004 15:26:02 +0200
+
+editobj (0.5.4-1) unstable; urgency=low
+
+  * New upstream version.
+  * Added watch file.
+  * Moved icons to '/usr/share/python-editobj/'.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Tue,  5 Oct 2004 23:27:37 +0200
+
+editobj (0.5.3b-3) unstable; urgency=high
+
+  * Package rearrangement to comply with python policy (Build-Depends &
+    Depends changes, removal of 'python2.3-editobj, ...) (Closes FTBFS).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu,  8 Jul 2004 00:43:54 +0200
+
+editobj (0.5.3b-2) unstable; urgency=low
+
+  * Added missing Build-Depends-Indep on 'cdbs' (Closes: #246473).
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 29 Apr 2004 16:35:29 +0200
+
+editobj (0.5.3b-1) unstable; urgency=low
+
+  * Renamed source top directory.
+  * Switched to CDBS.
+  * Patched 'setup.py' to copy only '.pgm' icon files so as to prevent
+    build failure when using tla-buildpackage ('.arch-ids' directory was
+    a problem for distutils).
+  * Removed 'debian/docs' as CDBS installs 'README' automagically.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Sun, 18 Apr 2004 18:07:00 +0200
+
+editobj (0.5.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated Maintainer field and 'debian/copyright'.
+
+ -- Marc Dequènes (Duck) <Duck@DuckCorp.org>  Thu, 18 Dec 2003 14:41:45 +0100
+
+editobj (0.5.2-4) unstable; urgency=low
+
+  * Added dummy package which select the the right package for the
+    default Python version.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Mon, 10 Nov 2003 03:47:11 +0100
+
+editobj (0.5.2-3) unstable; urgency=low
+
+  * 'debian/changelog' and 'debian/control' are now UTF-8 encoded.
+  * Improved 'debian/copyright'.
+  * Updated Standards-Version.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Tue,  4 Nov 2003 17:10:49 +0100
+
+editobj (0.5.2-2) unstable; urgency=low
+
+  * Cleanly rebuilded against python 2.3.
+  * Updated 'Standards-Version'.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Tue, 19 Aug 2003 14:03:59 +0200
+
+editobj (0.5.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Fri,  1 Aug 2003 22:12:17 +0200
+
+editobj (0.5-2) unstable; urgency=low
+
+  * now signing packages with real identity.
+  * Recompiled for python 2.3.
+
+ -- Marc Dequènes <Duck@DuckCorp.org>  Fri,  1 Aug 2003 21:06:45 +0200
+
+editobj (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- The Duck <Duck@DuckCorp.org>  Wed, 14 May 2003 00:36:21 +0200
+

@@ -1,0 +1,143 @@
+#! /usr/bin/python -O
+# -*- python -*-
+
+# SongWrite
+# Copyright (C) 2001-2004 Jean-Baptiste LAMY -- jibalamy@free.fr
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+import sys, os, os.path
+sys.path.insert(0, os.path.join(os.path.dirname(sys.argv[0]), "..", "share", "songwrite"))
+
+i          = 1
+create_new = 1
+mainloop   = 0
+task       = None
+output     = output_filename = None
+
+while i < len(sys.argv):
+  arg = sys.argv[i]
+  
+  if arg == "--version":
+    create_new = 0
+    
+    import song
+    print "Songwrite version %s" % song.VERSION
+    
+  elif arg == "--help":
+    create_new = 0
+    
+    print """Songwrite -- A tablature editor by Jiba (jiba@tuxfamily.org)
+
+songwrite [<file> ...]
+          --version
+          --help
+          --play <file> ...
+          --playloop <file> ...
+          --convert <format> [--output <file>] <file> ...
+
+where <format> is one of: lilypond, latex, ps, asciitab, midi.
+Use "--output -" for STDOUT (not available for ps)."""
+    
+  elif arg == "--convert":
+    i += 1
+    task = sys.argv[i]
+    
+  elif (arg == "--play") or (arg == "--playloop"):
+    task = arg
+    
+  elif arg == "--output":
+    i += 1
+    output_filename = sys.argv[i]
+    if output_filename == "-": output = sys.stdout
+    else:                      output = open(output_filename, "w")
+    
+#   elif arg == "--songbook":
+#     i += 1
+
+#     import stemml, latex, songbook
+#     s = songbook.Songbook(".", sys.argv[i + 1].decode("latin"))
+#     latex.songbook2ps(sys.argv[i + 1], map(lambda filename: stemml.parse(filename), sys.argv[i + 2:]), sys.argv[i])
+#     sys.exit()
+  
+  else: # It's a filename
+    create_new = 0
+    
+    import stemml
+    
+    if task == None:
+      import init_editobj, main, song
+      s = stemml.parse(arg)
+      if isinstance(s, song.Song): main.App(edit_song = s)
+      else:                        main.edit_songbook(s)
+      mainloop = 1
+      
+    elif task == "lilypond":
+      s = stemml.parse(arg)
+      output = output or open(arg[:-7] + ".lily", "w")
+      import lilypond
+      output.write(lilypond.lilypond(s))
+      
+    elif task == "latex":
+      import song, latex
+      s = stemml.parse(arg)
+      output = output or open(arg[:-7] + ".tex", "w")
+      if isinstance(s, song.Song): output.write(latex.latexify(s))
+      else:                        output.write(s.latex())
+      
+    elif task == "ps":
+      import song, latex
+      s = stemml.parse(arg)
+      if isinstance(s, song.Song): latex.export2ps  (s, output_filename or (arg[:-7] + ".ps"))
+      else:                        latex.songbook2ps(s, output_filename or (arg[:-7] + ".ps"))
+      
+    elif task == "asciitab":
+      s = stemml.parse(arg)
+      output = output or open(arg[:-7] + ".asciitab", "w")
+      import asciitab
+      output.write(asciitab.asciitab(s))
+      
+    elif task == "midi":
+      s = stemml.parse(arg)
+      output = output or open(arg[:-7] + ".midi", "w")
+      output.write(s.midi()[0])
+      
+    elif task == "--play":
+      s = stemml.parse(arg)
+      import player
+      player.play(s.midi()[0])
+      
+    elif task == "--playloop":
+      s = stemml.parse(arg)
+      import player
+      player.play(s.midi()[0], 1)
+      
+    else:
+      print "Error in command line !!!"
+      sys.exit(2)
+      
+  i += 1
+  
+if create_new:
+  import main
+  main.App()
+  mainloop = 1
+  
+if mainloop: # At least one main window
+  import globdef
+  if globdef.NO_CONFIG: globdef.config.edit()
+    
+  import Tkinter
+  Tkinter.mainloop()

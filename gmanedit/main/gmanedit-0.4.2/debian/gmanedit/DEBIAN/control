@@ -1,0 +1,17 @@
+Package: gmanedit
+Version: 0.4.2-4
+Architecture: amd64
+Maintainer: Jorge Alberto Dardón Galicia <jorge@xelalug.org>
+Installed-Size: 260
+Depends: libatk1.0-0 (>= 1.29.3), libc6 (>= 2.2.5), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.10.0), libpango1.0-0 (>= 1.14.0), zlib1g (>= 1:1.1.4)
+Section: gnome
+Priority: optional
+Homepage: http://gmanedit2.sourceforge.net
+Description: GTK+ man pages editor
+ Gtk+ Manpages Editor is an editor for man pages that runs on X with GTK+.
+ .
+ Gmanedit is an application which allows you to edit manual pages (man) on
+ Linux/Unix systems.
+ .
+ It is like most common HTML editors but more easy. You need to know manpages
+ format.

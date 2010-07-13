@@ -1,0 +1,12 @@
+   These are generic installation instructions for gmanedit.
+
+   You should have the GTK+ development headers and libraries 
+   installed on your system. Next, run the configure script in the
+   gmanedit source tree:
+
+   ./configure
+   make
+   make install
+
+   gmanedit will be installed in /usr/local/bin.
+

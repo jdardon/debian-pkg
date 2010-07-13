@@ -1,0 +1,5 @@
+editobj2 (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Jorge Dardon Galicia <jorge@xelalug.org>  Tue, 06 Jul 2010 01:03:21 -0600

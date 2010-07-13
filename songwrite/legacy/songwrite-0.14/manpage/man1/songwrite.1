@@ -1,0 +1,49 @@
+.TH "Songwrite" "1" "0.10" "Jiba (Lamy Jean-Baptiste)" ""
+.SH "NAME"
+.LP 
+Songwrite \- A tablature editor
+.SH "SYNTAX"
+.LP 
+songwrite [<\fIfilename...\fP>]
+.br 
+songwrite \fI\-\-help\fP
+.br 
+songwrite \fI\-\-version\fP
+.br 
+songwrite \fI\-\-play\fP [<\fIfilename...\fP>]
+.br 
+songwrite \fI\-\-playloop\fP [<\fIfilename...\fP>]
+.br 
+songwrite \fI\-\-songbook\fP <\fIsongbook_title\fP> <\fIsong_filenames...\fP>
+.br 
+songwrite \fI\-\-convert\fP <\fIformat\fP> [\-\-output <\fIoutput_filename\fP>] <\fIfilename\fP>
+.SH "DESCRIPTION"
+.LP 
+Songwrite is a tablature (guitar partition) editor, with playing and printing ability. Songwrite is coded in Python and uses Tk (Tkinter); it relies on Timidity to play midi and on GNU Lilypond for printing.
+.SH "OPTIONS"
+.LP 
+.TP 
+\fB\-\-help\fR
+Output help information and exit.
+.TP 
+\fB\-\-version\fR
+Output version information and exit.
+.TP 
+\fB\-\-play <\fIfilename\fP>\fR
+Play <\fIfilename\fP> and exit.
+.TP 
+\fB\-\-playloop <\fIfilename\fP>\fR
+Play <\fIfilename\fP> in loop (stop it with C\-c or kill).
+.TP 
+\fB\-\-songbook <\fIsongbook_filename\fP> <\fIsongbook_title\fP> <\fIsong_filenames...\fP> \fR
+Create a postcript songbook with the given title and songs.
+.TP 
+\fB\-\-convert\fR <\fIformat\fP> [\-\-output <\fIoutput_filename\fP>] <\fIfilename\fP>
+Opens no window, and converts Songwrite file <\fIfilename\fP> into <\fIformat\fP>. <\fIformat\fP> is one of: lilypond, latex, ps, asciitab, midi. <\fIoutput_filename\fP> is deduced from <\fIfilename\fP> and <\fIformat\fP> if not given.
+Several \fB\-\-convert\fR can be given. Use \fB\-\-output\fR \fI\-\fP for STDOUT (not available for ps).
+.SH "FILES"
+.LP 
+\fI~/.songwrite\fP 
+.SH "AUTHORS"
+.LP 
+Jiba (Lamy Jean\-Baptiste) <jiba@tuxfamily.org>

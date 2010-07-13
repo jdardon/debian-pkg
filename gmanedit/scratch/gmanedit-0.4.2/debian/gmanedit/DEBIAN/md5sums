@@ -1,0 +1,17 @@
+2decaa1c2dd0fcfefd21ac02a76b76de  usr/bin/gmanedit
+9b9998bf5341ce4610d5225bffb3f58f  usr/share/applications/gmanedit.desktop
+a5afbc33a51695fee766e03b0c931539  usr/share/doc/gmanedit/AUTHORS
+fc1a164cff8ff0348631452459848ec9  usr/share/doc/gmanedit/README
+c6021a989a9abb88d91c0766b754d46a  usr/share/doc/gmanedit/changelog.Debian.gz
+15d0620b004c05c9c3acf8d26a43607d  usr/share/doc/gmanedit/changelog.gz
+8815386a9d562a36853d12a5aaf5b191  usr/share/doc/gmanedit/copyright
+e2db99525d3403c301d85a7da8733059  usr/share/locale/ca/LC_MESSAGES/gmanedit.mo
+ad8a6ca72ba02fd08bbee7dc0b734dd6  usr/share/locale/es/LC_MESSAGES/gmanedit.mo
+a7e0fb86a4ea864242110335f1d1233c  usr/share/locale/gl/LC_MESSAGES/gmanedit.mo
+29c00cf79a2d07d77b3cf8f9118e9c7a  usr/share/locale/ja/LC_MESSAGES/gmanedit.mo
+72a8d5c6186a9bdb084cbb74f4be19c3  usr/share/locale/sv/LC_MESSAGES/gmanedit.mo
+95a9d7476b3e5ed01f444781f8b54532  usr/share/man/man1/gmanedit.1.gz
+5bb5cdaec5ce220a9f922992b6baba97  usr/share/menu/gmanedit
+16016e2b813c057576c0cc9bb38b7536  usr/share/pixmaps/gmanedit.png
+a8c787f734eaa279f086c96ef1569e0e  usr/share/pixmaps/gmanedit.xpm
+246a6e4f51bde6be6c7fd8d0a5709c42  usr/share/pixmaps/gmanedit_icon.png

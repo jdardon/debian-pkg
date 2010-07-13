@@ -1,0 +1,3 @@
+?package(gmanedit):needs="X11" section="Applications/Editors"\
+  title="gmanedit" command="/usr/bin/gmanedit"\
+  icon="/usr/share/pixmaps/gmanedit.xpm"

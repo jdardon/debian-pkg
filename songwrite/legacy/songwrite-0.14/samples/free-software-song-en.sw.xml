@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<song version="0.9" lang="en">
+	<title>Free Software Song</title>
+	<authors>Stallman</authors>
+	<copyright>2002</copyright>
+	<comments>Lyrics: Stallman
+Interpretation: Jiba
+
+My own unofficial version of the famous song.</comments>
+	<bars>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+		<bar rythm="4/4" tempo="150" syncope="0"/>
+	</bars>
+	<partition volume="131" muted="0" chorus="0" instrument="24" capo="0" reverb="0">
+		<header>Guitar</header>
+		<view type="tablature">
+			<strings>
+				<string pitch="64" notation="top"/>
+				<string pitch="59" notation="top"/>
+				<string pitch="55" notation="top"/>
+				<string pitch="50" notation="down"/>
+				<string pitch="45" notation="down"/>
+				<string pitch="40" notation="down"/>
+			</strings>
+		</view>
+		<notes>
+			<note pitch="64" time="0.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="0.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="55" time="0.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="0.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="48" time="0.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="0.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="0.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="0.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="0.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="0.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="1.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="52" time="1.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="64" time="1.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="60" time="1.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="48" time="1.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="55" time="1.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="1.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="1.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="1.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="1.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="2.0" duration="1.0" volume="255" string="2"/>
+			<note pitch="52" time="2.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="64" time="2.0" duration="1.0" volume="255" string="0"/>
+			<note pitch="60" time="2.0" duration="1.0" volume="255" string="1"/>
+			<note pitch="48" time="2.0" duration="1.0" volume="255" string="4"/>
+			<note pitch="60" time="3.0" duration="1.0" volume="204" string="1"/>
+			<note pitch="48" time="3.0" duration="1.0" volume="204" string="4"/>
+			<note pitch="55" time="3.0" duration="1.0" volume="204" string="2"/>
+			<note pitch="52" time="3.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="64" time="3.0" duration="1.0" volume="204" string="0"/>
+			<note pitch="55" time="4.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="4.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="4.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="4.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="4.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="4.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="4.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="4.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="4.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="4.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="5.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="52" time="5.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="64" time="5.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="60" time="5.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="48" time="5.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="55" time="5.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="5.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="5.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="5.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="5.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="6.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="6.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="6.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="6.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="6.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="64" time="6.5" duration="0.5" volume="255" fx="hammer" linked_to="1" string="0"/>
+			<note pitch="60" time="6.5" duration="0.5" volume="255" fx="hammer" linked_to="2" string="1"/>
+			<note pitch="48" time="6.5" duration="0.5" volume="255" fx="hammer" linked_to="3" string="4"/>
+			<note pitch="55" time="6.5" duration="0.5" volume="255" fx="hammer" linked_to="4" string="2"/>
+			<note pitch="52" time="6.5" duration="0.5" volume="255" fx="hammer" linked_to="5" string="3"/>
+			<note pitch="55" time="7.0" duration="0.5" volume="204" id="4" string="2"/>
+			<note pitch="52" time="7.0" duration="0.5" volume="204" id="5" string="3"/>
+			<note pitch="64" time="7.0" duration="0.5" volume="204" id="1" string="0"/>
+			<note pitch="60" time="7.0" duration="0.5" volume="204" id="2" string="1"/>
+			<note pitch="48" time="7.0" duration="0.5" volume="204" id="3" string="4"/>
+			<note pitch="64" time="7.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="7.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="7.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="7.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="7.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="55" time="8.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="8.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="8.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="8.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="8.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="8.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="8.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="8.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="48" time="8.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="62" time="8.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="52" time="9.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="55" time="9.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="65" time="9.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="62" time="9.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="48" time="9.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="55" time="9.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="9.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="9.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="9.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="9.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="10.0" duration="1.0" volume="255" string="2"/>
+			<note pitch="52" time="10.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="65" time="10.0" duration="1.0" volume="255" string="0"/>
+			<note pitch="62" time="10.0" duration="1.0" volume="255" string="1"/>
+			<note pitch="48" time="10.0" duration="1.0" volume="255" string="4"/>
+			<note pitch="55" time="11.0" duration="1.0" volume="204" string="2"/>
+			<note pitch="52" time="11.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="65" time="11.0" duration="1.0" volume="204" string="0"/>
+			<note pitch="62" time="11.0" duration="1.0" volume="204" string="1"/>
+			<note pitch="48" time="11.0" duration="1.0" volume="204" string="4"/>
+			<note pitch="62" time="12.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="65" time="12.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="52" time="12.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="48" time="12.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="12.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="62" time="12.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="55" time="12.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="12.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="12.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="48" time="12.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="13.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="52" time="13.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="65" time="13.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="48" time="13.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="62" time="13.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="62" time="13.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="13.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="13.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="13.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="13.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="65" time="14.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="14.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="14.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="55" time="14.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="14.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="55" time="14.5" duration="0.5" volume="255" fx="hammer" linked_to="6" string="2"/>
+			<note pitch="52" time="14.5" duration="0.5" volume="255" fx="hammer" linked_to="7" string="3"/>
+			<note pitch="65" time="14.5" duration="0.5" volume="255" fx="hammer" linked_to="8" string="0"/>
+			<note pitch="62" time="14.5" duration="0.5" volume="255" fx="hammer" linked_to="9" string="1"/>
+			<note pitch="48" time="14.5" duration="0.5" volume="255" fx="hammer" linked_to="10" string="4"/>
+			<note pitch="55" time="15.0" duration="0.5" volume="204" id="6" string="2"/>
+			<note pitch="52" time="15.0" duration="0.5" volume="204" id="7" string="3"/>
+			<note pitch="65" time="15.0" duration="0.5" volume="204" id="8" string="0"/>
+			<note pitch="62" time="15.0" duration="0.5" volume="204" id="9" string="1"/>
+			<note pitch="48" time="15.0" duration="0.5" volume="204" id="10" string="4"/>
+			<note pitch="55" time="15.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="15.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="15.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="15.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="48" time="15.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="62" time="16.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="16.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="65" time="16.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="50" time="16.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="16.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="57" time="16.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="50" time="16.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="62" time="16.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="17.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="50" time="17.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="65" time="17.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="62" time="17.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="57" time="17.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="50" time="17.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="17.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="17.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="18.0" duration="1.0" volume="255" string="2"/>
+			<note pitch="50" time="18.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="65" time="18.0" duration="1.0" volume="255" string="0"/>
+			<note pitch="62" time="18.0" duration="1.0" volume="255" string="1"/>
+			<note pitch="57" time="19.0" duration="1.0" volume="204" string="2"/>
+			<note pitch="65" time="19.0" duration="1.0" volume="204" string="0"/>
+			<note pitch="62" time="19.0" duration="1.0" volume="204" string="1"/>
+			<note pitch="50" time="19.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="50" time="20.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="20.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="20.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="20.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="65" time="20.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="57" time="20.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="62" time="20.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="50" time="20.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="57" time="21.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="50" time="21.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="65" time="21.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="62" time="21.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="62" time="21.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="50" time="21.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="57" time="21.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="65" time="21.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="57" time="22.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="65" time="22.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="62" time="22.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="50" time="22.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="22.5" duration="0.5" volume="255" fx="hammer" linked_to="11" string="0"/>
+			<note pitch="57" time="22.5" duration="0.5" volume="255" fx="hammer" linked_to="12" string="2"/>
+			<note pitch="50" time="22.5" duration="0.5" volume="255" fx="hammer" linked_to="13" string="3"/>
+			<note pitch="62" time="22.5" duration="0.5" volume="255" fx="hammer" linked_to="14" string="1"/>
+			<note pitch="57" time="23.0" duration="0.5" volume="204" id="12" string="2"/>
+			<note pitch="50" time="23.0" duration="0.5" volume="204" id="13" string="3"/>
+			<note pitch="65" time="23.0" duration="0.5" volume="204" id="11" string="0"/>
+			<note pitch="62" time="23.0" duration="0.5" volume="204" id="14" string="1"/>
+			<note pitch="62" time="23.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="23.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="50" time="23.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="65" time="23.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="64" time="24.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="24.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="24.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="24.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="45" time="24.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="57" time="24.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="24.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="24.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="24.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="24.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="52" time="25.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="64" time="25.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="60" time="25.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="57" time="25.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="45" time="25.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="64" time="25.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="25.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="57" time="25.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="25.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="45" time="25.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="57" time="26.0" duration="1.0" volume="255" string="2"/>
+			<note pitch="52" time="26.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="64" time="26.0" duration="1.0" volume="255" string="0"/>
+			<note pitch="60" time="26.0" duration="1.0" volume="255" string="1"/>
+			<note pitch="45" time="26.0" duration="1.0" volume="255" string="4"/>
+			<note pitch="57" time="27.0" duration="1.0" volume="204" string="2"/>
+			<note pitch="52" time="27.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="64" time="27.0" duration="1.0" volume="204" string="0"/>
+			<note pitch="60" time="27.0" duration="1.0" volume="204" string="1"/>
+			<note pitch="45" time="27.0" duration="1.0" volume="204" string="4"/>
+			<note pitch="57" time="28.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="64" time="28.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="52" time="28.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="60" time="28.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="28.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="64" time="28.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="57" time="28.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="28.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="60" time="28.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="28.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="57" time="29.0" duration="0.5" volume="255" string="2"/>
+			<note pitch="52" time="29.0" duration="0.5" volume="255" string="3"/>
+			<note pitch="64" time="29.0" duration="0.5" volume="255" string="0"/>
+			<note pitch="60" time="29.0" duration="0.5" volume="255" string="1"/>
+			<note pitch="45" time="29.0" duration="0.5" volume="255" string="4"/>
+			<note pitch="57" time="29.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="29.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="29.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="29.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="29.5" duration="0.5" volume="204" string="4"/>
+			<note pitch="57" time="30.0" duration="0.5" volume="204" string="2"/>
+			<note pitch="52" time="30.0" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="30.0" duration="0.5" volume="204" string="0"/>
+			<note pitch="60" time="30.0" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="30.0" duration="0.5" volume="204" string="4"/>
+			<note pitch="57" time="30.5" duration="0.5" volume="255" fx="hammer" linked_to="15" string="2"/>
+			<note pitch="52" time="30.5" duration="0.5" volume="255" fx="hammer" linked_to="16" string="3"/>
+			<note pitch="64" time="30.5" duration="0.5" volume="255" fx="hammer" linked_to="17" string="0"/>
+			<note pitch="60" time="30.5" duration="0.5" volume="255" fx="hammer" linked_to="18" string="1"/>
+			<note pitch="45" time="30.5" duration="0.5" volume="255" fx="hammer" linked_to="19" string="4"/>
+			<note pitch="57" time="31.0" duration="0.5" volume="204" id="15" string="2"/>
+			<note pitch="52" time="31.0" duration="0.5" volume="204" id="16" string="3"/>
+			<note pitch="60" time="31.0" duration="0.5" volume="204" id="18" string="1"/>
+			<note pitch="64" time="31.0" duration="0.5" volume="204" id="17" string="0"/>
+			<note pitch="45" time="31.0" duration="0.5" volume="204" id="19" string="4"/>
+			<note pitch="52" time="31.5" duration="0.5" volume="204" string="3"/>
+			<note pitch="64" time="31.5" duration="0.5" volume="204" string="0"/>
+			<note pitch="57" time="31.5" duration="0.5" volume="204" string="2"/>
+			<note pitch="60" time="31.5" duration="0.5" volume="204" string="1"/>
+			<note pitch="45" time="31.5" duration="0.5" volume="204" string="4"/>
+		</notes>
+	</partition>
+	<partition volume="255" muted="0" chorus="0" instrument="73" capo="0" reverb="0" tonality="C">
+		<header>Vocals</header>
+		<view type="staff" g8="1"/>
+		<notes>
+			<note pitch="52" time="0.0" duration="2.0" volume="255" string="3"/>
+			<note pitch="52" time="2.0" duration="2.0" volume="204" string="3"/>
+			<note pitch="52" time="4.0" duration="2.0" volume="255" string="9"/>
+			<note pitch="48" time="6.5" duration="1.5" volume="204"/>
+			<note pitch="50" time="8.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="52" time="9.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="50" time="10.0" duration="0.5" volume="255" fx="hammer" linked_to="20" string="4"/>
+			<note pitch="48" time="10.5" duration="1.5" volume="204" id="20" string="4"/>
+			<note pitch="48" time="12.0" duration="2.0" volume="204" string="4"/>
+			<note pitch="52" time="14.5" duration="1.5" volume="204" string="3"/>
+			<note pitch="50" time="16.0" duration="1.0" volume="204" fx="hammer" linked_to="21" string="3"/>
+			<note pitch="53" time="17.0" duration="1.0" volume="204" id="21" string="3"/>
+			<note pitch="53" time="18.0" duration="2.0" volume="255" string="3"/>
+			<note pitch="53" time="20.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="53" time="21.0" duration="1.5" volume="204" fx="hammer" linked_to="22" string="3"/>
+			<note pitch="57" time="22.5" duration="1.5" volume="255" id="22" string="3"/>
+			<note pitch="52" time="24.0" duration="1.0" volume="204" string="3"/>
+			<note pitch="52" time="25.0" duration="1.0" volume="255" string="3"/>
+			<note pitch="52" time="26.0" duration="1.0" volume="204" fx="hammer" linked_to="23" string="3"/>
+			<note pitch="55" time="27.0" duration="1.0" volume="255" fx="hammer" linked_to="24" id="23" string="3"/>
+			<note pitch="53" time="28.0" duration="1.0" volume="204" fx="hammer" linked_to="25" id="24" string="3"/>
+			<note pitch="52" time="29.0" duration="2.0" volume="204" id="25" string="3"/>
+		</notes>
+	</partition>
+	<lyrics>
+		<header>Verse 1</header>
+		<view type="lyrics"/>
+		<text>
+Join	us	now	and	share	the	soft-	_	ware,<br/>	You'll	be	_	free,	Ha-	cker,	_	you'll	be	free,<br/><br-verse/>Hoa-	ders	may	get	piles	of	mo-	_	ney,<br/>	Yes	it's	_	true,	Ha-	cker,	_	yes	it's	true,<br/><br-verse/>But	they	can-	not	help	their	neigh-	_	bours,<br/>	That	is	_	bad,	Ha-	cker,	_	that	is	bad.<br/><br-verse/>						<br-verse/>		
+		</text>
+	</lyrics>
+	<lyrics>
+		<header>Verse 2</header>
+		<view type="lyrics"/>
+		<text>
+Join	us	now	and	share	the	soft-	_	ware,<br/>	You'll	be	_	free,	Ha-	cker,	_	you'll	be	free,<br/><br-verse/>When	we	have	e-	nough	_	soft-	_	ware,<br/>	At	our,	_	call,	Ha-	cker,	_	at	our,	call.<br/><br-verse/>We'll	kick	out	those	dir-	ty	li-	cen-	ces,<br/>	E-	ver-	_	more,	Ha-	cker,	_	e-	ver-	more.<br/><br-verse/>						<br-verse/>		
+		</text>
+	</lyrics>
+</song>

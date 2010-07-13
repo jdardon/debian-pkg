@@ -1,0 +1,213 @@
+gmanedit (0.4.2-4) unstable; urgency=low
+
+  * Now Using Quilt
+  * Added 07_binutils_gold.dpatch to fix
+    FTBFS with binutils-gold (Closes: #554557)
+  * New maintainer (Closes: #553984) 
+
+ -- Jorge Alberto Dardón Galicia <jorge@xelalug.org>  Sun, 21 Mar 2010 21:27:56 -0600
+
+gmanedit (0.4.2-3) unstable; urgency=low
+
+  * QA upload.
+  * Removed Anibal Avelar from Uploaders.
+  * Now using dpatch.
+  * Fix buffer overflow in wizard. Closes: #555467.
+  * Updated Spanish translation. Closes: #539247.
+  * Fix typo in menus.
+
+ -- Pietro Battiston <toobaz@email.it>  Mon, 09 Nov 2009 23:22:11 +0100
+
+gmanedit (0.4.2-2) unstable; urgency=low
+
+  * Retiring - set the package maintainer to Debian QA Group.
+
+ -- Joop Stakenborg <pa3aba@debian.org>  Mon, 02 Nov 2009 15:29:44 +0000
+
+gmanedit (0.4.2-1) unstable; urgency=low
+
+  * New upstream. Closes: #497824, #497828, #448588, #439562, #348215.
+
+ -- Joop Stakenborg <pa3aba@debian.org>  Tue, 11 Nov 2008 16:26:51 +0100
+
+gmanedit (0.4.1-1.1) unstable; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Fix heap-based buffer overflow on converting a manpage
+    from the currently used locale to utf8 and various other
+    not security relevant buffer overflows
+    (CVE-2008-3971; Closes: #497835).
+
+ -- Nico Golde <nion@debian.org>  Thu, 11 Sep 2008 13:05:52 +0200
+
+gmanedit (0.4.1-1) unstable; urgency=low
+
+  [ Anibal Avelar ]
+  * New upstream version. Removed all gnome1.x dependencies. Gtk2 porting.
+  * New mantainer (Closes: #465990)
+  * Fixed the lintian warn debian-files-list-in-source 
+    (Closes: #451055)
+  * Fixed the problem when the clean rule doesn't remove debian/files
+    (Closes: #379754)
+  * Fixed the depends from gnome-libs that is scheduled for removal
+    (Closes: #460772)
+  * Fixed the debian/changelog file should be utf8.
+    (Closes: #453982)
+  * Fixed details in the debian/rules to avoid lintian warn messages.
+  * Fixed the debian/copyright file should be utf8.
+  * Cleaned and updated the debian/copyright file. Fixed to the new
+    upstreams. Bumped to GPL-2.
+  * Bumped to the Standards-Version 3.7.3.
+  * Added the Homepage field in debian/control.
+  * Added a debian/compat file.
+  * Added a debian/watch file.
+  * Removed the debian/gmanedit.desktop file. The upstream source has one.
+  * Added a icon in XPM format for the menu Debian system.
+  * Cleaned the package description in debian/control.
+  * Added the field Uploaders in debian/control file.
+
+  [ Joop Stakenborg ]
+  * Upload on behalf of Anibal Avelar, who's package I am sponsoring.
+
+ -- Joop Stakenborg <pa3aba@debian.org>  Fri, 14 Mar 2008 16:34:57 +0100
+
+gmanedit (0.3.3-12.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Remove Recommends: on non-existent gnome-help package (closes: #240565).
+
+ -- Steve Langasek <vorlon@debian.org>  Sun,  2 May 2004 18:07:28 -0500
+
+gmanedit (0.3.3-12) unstable; urgency=low
+
+  * Replaced gnome-help by yelp. Closes: #229248 
+  * Updated config.* files
+
+ -- Sergio Rua <srua@debian.org>  Wed,  4 Feb 2004 09:36:22 +0000
+
+gmanedit (0.3.3-11) unstable; urgency=low
+
+  * Moved package to section gnome 
+  * Rebuilded with the latest gnome libraries
+
+ -- Sergio Rua <srua@debian.org>  Thu,  1 May 2003 10:29:47 +0100
+
+gmanedit (0.3.3-10) unstable; urgency=low
+
+  * Missing zlib on BuildDepends 
+
+ -- Sergio Rua <srua@debian.org>  Sat, 30 Nov 2002 12:48:31 +0000
+
+gmanedit (0.3.3-9) unstable; urgency=low
+
+  * Changed dependency from automake to automake1.4. Closes: #166385
+
+ -- Sergio Rua <srua@debian.org>  Wed,  6 Nov 2002 11:36:41 +0000
+
+gmanedit (0.3.3-8) unstable; urgency=low
+
+  * Updated Català translation
+
+ -- Sergio Rua <srua@debian.org>  Sun, 30 Jun 2002 12:34:09 +0200
+
+gmanedit (0.3.3-7.1) unstable; urgency=low
+
+  * Non-Maintainer Upload, approved by Sergio.
+  * debian/control:
+    + added Build-Depends on debhelper.
+    + Standards-Version: 3.1.1 (we declare Build-Depends).
+  * debian/rules: clean up debian/ cruft as well as config.{cache,log}
+    in the upstream tarball (closes: #103777).
+
+ -- Jordi Mallach <jordi@debian.org>  Wed, 11 Jul 2001 18:55:16 +0200
+
+gmanedit (0.3.3-7) unstable; urgency=low
+
+  * Resolved minor bug: "created" was writed "creted". 
+
+ -- Sergio Rua <srua@debian.org>  Tue, 26 Jun 2001 16:18:54 +0200
+
+gmanedit (0.3.3-6) unstable; urgency=low
+
+  * Removed libgtk-dev from Build-Deps 
+
+ -- Sergio Rua <srua@debian.org>  Wed, 23 May 2001 09:23:24 +0200
+
+gmanedit (0.3.3-5) unstable; urgency=low
+
+  * Solved bug on a date function. This fuctions is now commented.
+
+ -- Sergio Rua <srua@debian.org>  Tue, 22 May 2001 12:24:15 +0200
+
+gmanedit (0.3.3-4) unstable; urgency=low
+
+  * Added 'Build-Depends' entry on control file
+
+ -- Sergio Rua <srua@debian.org>  Thu,  8 Feb 2001 17:47:36 +0100
+
+gmanedit (0.3.3-3) unstable; urgency=low
+
+  * Recompiled without helix dependencies
+
+ -- Sergio Rua <srua@debian.org>  Wed,  10 Sep 2000 13:15:01 +0200
+
+gmanedit (0.3.3-2) unstable; urgency=low
+
+  * Deleted Debian icon because exceed maximun number of colors
+
+ -- Sergio Rua <srua@debian.org>  Wed,  10 Sep 2000 13:15:01 +0200
+
+gmanedit (0.3.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Deleted symbolic links generated by autoconf
+  * Changed Debian menu icon
+  * Changed installion dir from /usr/X11R6/bin to /usr/bin
+
+ -- Sergio Rua <srua@debian.org>  Wed,  10 Sep 2000 13:15:01 +0200
+
+gmanedit (0.3.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Wed,  6 Sep 2000 13:55:01 +0200
+
+gmanedit (0.3.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Thu, 31 Aug 2000 23:03:16 +0200
+
+gmanedit (0.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Wed, 23 Aug 2000 13:45:28 +0200
+
+gmanedit (0.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Fri, 21 Jul 2000 13:25:38 +0200
+
+gmanedit (0.1.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Wed,  5 Jul 2000 16:00:46 +0200
+
+gmanedit (0.1.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sergio Rua <srua@debian.org>  Wed, 10 May 2000 23:00:49 +0200
+
+gmanedit (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Sergio Rua <srua@debian.org>  Thu, 23 Mar 2000 12:49:15 +0100
+
+Local variables:
+mode: debian-changelog
+End:

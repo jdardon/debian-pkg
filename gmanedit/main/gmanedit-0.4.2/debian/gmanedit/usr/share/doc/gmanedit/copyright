@@ -1,0 +1,31 @@
+This package was debianized by Sergio Rua <srua@debian.org> on
+Thu, 23 Mar 2000 12:49:15 +0100. Since Thu, 28 Feb 2008 maintained by Anibal Avelar <aavelar@cofradia.org>.
+
+It was downloaded from http://gmanedit2.sourceforge.net
+
+Upstream Author: Sergio Rua
+	         Joop Stakenborg <pg4i@amsat.org>
+                 Anibal Avelar <aavelar@cofradia.org>
+
+Copyright: (C)  2000-2001 Sergio Rua
+Copyright: (C)  2008      Joop Stakenborg <pg4i@amsat.org>
+Copyright: (C)  2008      Anibal Avelar <aavelar@cofradia.org>
+
+License:
+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; version 2 dated June, 1991.
+
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software Foundation,
+ Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+
+On Debian GNU/Linux systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+

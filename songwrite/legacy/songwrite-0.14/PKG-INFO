@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Songwrite
+Version: 0.14
+Summary: Tablature editor in Python with Tk, Timidity and Lilypond
+Home-page: http://oomadness.tuxfamily.org/en/songwrite
+Author: Lamy Jean-Baptiste
+Author-email: jiba@tuxfamily.org
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN

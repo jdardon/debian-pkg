@@ -1,0 +1,527 @@
+# Songwrite
+# Copyright (C) 2001-2002 Jean-Baptiste LAMY
+#
+
+msgid  "Guitar (staff 1 octavo above)"
+msgstr "Guitare (un octave au-dessus)"
+
+msgid  "Arrange at fret..."
+msgstr "Arranger à la case..."
+msgid  "Arrange selected notes at fret?"
+msgstr "Arranger les notes sélectionnées à la case ?"
+
+msgid  "Error while exporting!"
+msgstr "Erreur lors de l'exportation !"
+msgid  "__UnknownError__"
+msgstr "Une erreur inconnue s'est produite, regardez la console."
+msgid  "__TimeError__"
+msgstr "Une erreur est présente au temps sélectionné (ou juste avant) ; désolé pas plus de détails disponibles :-("
+msgid  "__ChordError__"
+msgstr "Une erreur est présente au temps sélectionné (ou juste avant). Plus de trois notes sont jouées simultanées sans qu'elles fassent partie d'un accord (elles ont des durées différentes)."
+msgid  "__UnsingablePartitionError__"
+msgstr "Une erreur est présente sur la note sélectionnée : plusieurs notes doivent être chanté simultanément sur une même partition de chant, ce qui n'est pas humainement faisable !\nTypiquement cette erreur se produit lorsqu'il y a une erreur de durée sur une note d'une partition de chant."
+
+msgid  "__unsupported-rythm__"
+msgstr "Rythme non supporté"
+msgid  "__unsupported-rythm-message__"
+msgstr "Attention! Le rythme %s/%s n'est pas supporté.\nPour l'instant, seuls les rythmes x/4 et y/8 (avec y multiple de 3) sont acceptés."
+msgid  "aRts is getting in the way"
+msgstr "aRts pose problème"
+msgid  "__fucking-arts__"
+msgstr "Vous essayer d'utiliser une version de Timidity basé sur aRts, mais le serveur artsd ne tourne pas. Songwrite va essayer de contourner le problème à l'aide d'un fichier de configuration temporaire (%s), mais vous devriez installer une version de Timidity indépendante de aRts/KDE."
+
+msgid  "Convert to the new lyrics system"
+msgstr "Convertir dans le nouveau système de paroles"
+msgid  "Hidden"
+msgstr "Caché"
+msgid  "Vocals"
+msgstr "Chant"
+
+msgid  "tab"
+msgstr "Tablature"
+msgid  "drums"
+msgstr "Batterie"
+msgid  "EmptyDrums"
+msgstr "Batterie"
+msgid  "staff"
+msgstr "Portée"
+msgid  "view"
+msgstr "vue"
+
+msgid  "print_with_staff_too"
+msgstr "imprimer avec portée"
+
+msgid  "Drum patch, %s"
+msgstr "Patch de batterie, %s"
+msgid  "Drum patch"
+msgstr "Patch de batterie"
+msgid  "New"
+msgstr "Nouveau"
+msgid  "New window..."
+msgstr "Nouvelle fenêtre..."
+msgid  "New songbook..."
+msgstr "Nouveau livre de chanson..."
+msgid  "Open..."
+msgstr "Ouvrir..."
+msgid  "Save"
+msgstr "Enregistrer"
+msgid  "Save as..."
+msgstr "Enregistrer sous..."
+msgid  "Midi..."
+msgstr "Midi..."
+msgid  "Ascii tablature..."
+msgstr "Tablature Ascii..."
+msgid  "Import"
+msgstr "Importer"
+msgid  "Rich tablature Midi..."
+msgstr "Rich tablature Midi..."
+msgid  "Lilypond (no lyrics)..."
+msgstr "Lilypond (sans parole)..."
+msgid  "LaTeX+Lilypond..."
+msgstr "LaTeX+Lilypond..."
+msgid  "Postscipt..."
+msgstr "Postscipt..."
+msgid  "Export"
+msgstr "Exporter"
+msgid  "preview_print"
+msgstr "(Aperçu avant) impression"
+msgid  "Exit"
+msgstr "Quitter"
+msgid  "File"
+msgstr "Fichier"
+msgid  "Cancel"
+msgstr "Annuler"
+msgid  "Redo"
+msgstr "Refaire"
+msgid  "Preferences..."
+msgstr "Préferences..."
+msgid  "Insert/remove times..."
+msgstr "Insérer/supprimer temps..."
+msgid  "Insert how many times? (negative for removing)"
+msgstr "Inserer combien de temps ? (negatif pour supprimer)"
+msgid  "Insert/remove bars..."
+msgstr "Insérer/supprimer mesures..."
+msgid  "Insert how many bars? (negative for removing)"
+msgstr "Inserer combien de masures ? (negatif pour supprimer)"
+msgid  "Edit"
+msgstr "Edition"
+msgid  "Play"
+msgstr "Jouer"
+msgid  "Play from here"
+msgstr "Jouer depuis ici"
+msgid  "Play in loop"
+msgstr "Jouer en boucle"
+msgid  "Stop playing"
+msgstr "Arrêter"
+msgid  "Rhythm..."
+msgstr "Rythme..."
+msgid  "Properties..."
+msgstr "Propriétés..."
+msgid  "Song"
+msgstr "Chanson"
+msgid  "New tab"
+msgstr "Nouvel instrument à corde"
+msgid  "New staff"
+msgstr "Nouvelle portée"
+msgid  "New drums"
+msgstr "Nouvelle batterie"
+msgid  "New lyrics"
+msgstr "Nouvelles paroles"
+msgid  "Move up"
+msgstr "Monter"
+msgid  "Move down"
+msgstr "Descendre"
+msgid  "Delete"
+msgstr "Supprimer"
+msgid  "Partition"
+msgstr "Partition"
+msgid  "Paste"
+msgstr "Coller"
+msgid  "Note"
+msgstr "Note"
+msgid  "About..."
+msgstr "A propos de..."
+msgid  "Manual..."
+msgstr "Manuel..."
+msgid  "Dump"
+msgstr "Dumper"
+msgid  "Dump clipboard"
+msgstr "Dumper le presse-papier"
+msgid  "Python console..."
+msgstr "Console Python..."
+msgid  "Help"
+msgstr "Aide"
+msgid  "Doted"
+msgstr "Pointé"
+msgid  "Triplet"
+msgstr "Triolet"
+msgid  "Stressed"
+msgstr "Accentué"
+msgid  "Zoom"
+msgstr "Zoom"
+msgid  "Properties"
+msgstr "Propriétés"
+msgid  "%s's song"
+msgstr "La chanson de %s"
+msgid  "%s's songbook"
+msgstr "Les chansons de %s"
+msgid  "Yes"
+msgstr "Oui"
+msgid  "No"
+msgstr "Non"
+msgid  "The current song has been changed. Continue ?"
+msgstr "La chanson a été modifiée. Continuer ?"
+msgid  "Guitar"
+msgstr "Guitare"
+msgid  "Bass"
+msgstr "Basse"
+msgid  "Lyrics"
+msgstr "Paroles"
+msgid  "Sounds"
+msgstr "Sons"
+msgid  "Drums"
+msgstr "Batterie"
+msgid  "Lyric"
+msgstr "Parole"
+msgid  "Strings"
+msgstr "Cordes"
+msgid  "Normal"
+msgstr "Normal"
+msgid  "Hammer / pull / legato"
+msgstr "Hammer / pull / legato"
+msgid  "Bend"
+msgstr "Bend"
+msgid  "Slide"
+msgstr "Slide"
+msgid  "Tremolo"
+msgstr "Tremolo"
+msgid  "Dead note"
+msgstr "Dead note"
+msgid  "Roll"
+msgstr "Roll"
+msgid  "Upper"
+msgstr "En haut"
+msgid  "Lower"
+msgstr "En bas"
+msgid  "hidden"
+msgstr "caché"
+msgid  "String"
+msgstr "Corde"
+msgid  "String (Banjo 5G)"
+msgstr "Corde (Banjo 5G)"
+msgid  "base = %s"
+msgstr "note à vide = %s"
+
+msgid  "basenote"
+msgstr "note à vide"
+msgid  "notationpos"
+msgstr "direction des tiges"
+
+msgid  "Add..."
+msgstr "Ajouter..."
+msgid  "Remove"
+msgstr "Supprimer"
+msgid  "Up"
+msgstr "Haut"
+msgid  "Down"
+msgstr "Bas"
+
+msgid  "Guitar DADGAD"
+msgstr "Guitare DADGAD"
+msgid  "Cymbal"
+msgstr "Cymbale"
+msgid  "Confirmation"
+msgstr "Ce fichier existe déjà. Faut-il réécrire par-dessus ?"
+msgid  "muted"
+msgstr "muet"
+
+msgid  "MIDI_COMMAND"
+msgstr "commande Midi"
+msgid  "PREVIEW_COMMAND"
+msgstr "commande Postscript"
+msgid  "PAGE_FORMAT"
+msgstr "Format de page"
+msgid  "PLAY_LOOP"
+msgstr "jouer en boucle"
+msgid  "DISPLAY_PLAY_BAR"
+msgstr "cadre de lecture"
+msgid  "NUMBER_OF_CANCEL"
+msgstr "niveaux d'annulation"
+msgid  "__config_preamble__"
+msgstr "** Configuration de Songwrite **\n\nSongwrite utilise un programme externe pour jouer les fichiers MIDI (Timidity par défaut).\nUne autre commande possible est \"playmidi %s\".\n\nLa commande postscript est celle utilisée pour visualiser les fichiers avant impression."
+
+msgid  "__about__"
+msgstr "Songwrite %s\n\nSongwrite est un éditeur de tablature écrit en langage Python par Jiba <jiba@tuxfamily.org>.\n\nSongwrite est un Logiciel Libre sous GPL.\nFaîtes plaisir à l'auteur, ne confondez pas \"Logiciels Libres\" et \"Freeware\" ! En plus d'être \"Freeware\", un Logiciel Libre est disponible sous forme de code source, qu'il est permis de modifier et de redistribuer librement.\n\nGrâce à ces libertés, le Logiciel Libre propose une alternative au système capitaliste, respectez-là et rejoignez la révolution !"
+
+msgid  "note_0"
+msgstr "Do"
+msgid  "note_1"
+msgstr "Do#"
+msgid  "note_2"
+msgstr "Ré"
+msgid  "note_3"
+msgstr "Ré#"
+msgid  "note_4"
+msgstr "Mi"
+msgid  "note_5"
+msgstr "Fa"
+msgid  "note_6"
+msgstr "Fa#"
+msgid  "note_7"
+msgstr "Sol"
+msgid  "note_8"
+msgstr "Sol#"
+msgid  "note_9"
+msgstr "La"
+msgid  "note_10"
+msgstr "La#"
+msgid  "note_11"
+msgstr "Si"
+
+msgid  "Whole"
+msgstr "Ronde"
+msgid  "Half"
+msgstr "Blanche"
+msgid  "Quarter"
+msgstr "Noire"
+msgid  "Eighth"
+msgstr "Croche"
+msgid  "Sixteenth"
+msgstr "Double croche"
+msgid  "Thirty-second"
+msgstr "Triple croche"
+msgid  "title"
+msgstr "titre"
+msgid  "authors"
+msgstr "auteurs"
+msgid  "copyright"
+msgstr "copyright"
+msgid  "comments"
+msgstr "commentaires"
+msgid  "lang"
+msgstr "langue"
+msgid  "header"
+msgstr "en-tête"
+msgid  "tempo"
+msgstr "tempo"
+msgid  "syncope"
+msgstr "ternaire (syncope)"
+msgid  "duration"
+msgstr "durée"
+msgid  "rythm1"
+msgstr "temps par mesure"
+msgid  "rythm2"
+msgstr "durée d'un temps"
+msgid  "special_effect_name"
+msgstr "effet spécial"
+msgid  "value"
+msgstr "valeur"
+
+msgid  "Space"
+msgstr "Espace"
+msgid  "Middle click"
+msgstr "Clic milieu"
+
+msgid  "__PlaylistItem__"
+msgstr "De la mesure %s à la mesure %s"
+msgid  "Repeat..."
+msgstr "Répétitions..."
+msgid  "playlist"
+msgstr "liste de lecture"
+msgid  "from_mesure"
+msgstr "de la mesure"
+msgid  "to_mesure"
+msgstr "à la mesure"
+msgid  "redefine"
+msgstr "redéfinir"
+msgid  "Do"
+msgstr "Faire"
+
+msgid  "__percu__"
+msgstr "35 Acoustic Bass Drum\n \
+36 Bass Drum 1\n \
+37 Side Stick\n \
+38 Acoustic Snare\n \
+39 Hand Clap\n \
+40 Electric Snare\n \
+41 Low Floor Tom\n \
+42 Closed Hi-Hat\n \
+43 High Floor Tom\n \
+44 Pedal Hi-Hat\n \
+45 Low Tom\n \
+46 Open Hi-Hat\n \
+47 Low-Mid Tom\n \
+48 Hi-Mid Tom\n \
+49 Crash Cymbal 1\n \
+50 High Tom\n \
+51 Ride Cymbal 1\n \
+52 Chinese Cymbal\n \
+53 Ride Bell\n \
+54 Tambourin\n \
+55 Splash Cymbal\n \
+56 Cloche de vache\n \
+57 Crash Cymbal 2\n \
+58 Vibraslap\n \
+59 Ride Cymbal 2\n \
+60 Hi Bongo\n \
+61 Low Bongo\n \
+62 Mute Hi Conga\n \
+63 Open Hi Conga\n \
+64 Low Conga\n \
+65 High Timbale\n \
+66 Low Timbale\n \
+67 High Agogo\n \
+68 Low Agogo\n \
+69 Cabasa\n \
+70 Maracasse\n \
+71 Short Whistle\n \
+72 Long Whistle\n \
+73 Short Guiro\n \
+74 Long Guiro\n \
+75 Claves\n \
+76 Hi Wood Block\n \
+77 Low Wood Block\n \
+78 Mute Cuica\n \
+79 Open Cuica\n \
+80 Mute Triangle\n \
+81 Open Triangle"
+
+msgid  "__instru__"
+msgstr "0 Grand piano acoustique\n \
+1 Piano acoustique clair\n \
+2 Grand piano électrique\n \
+3 Piano Honky-Tonk\n \
+4 Piano électrique 1\n \
+5 Piano électrique 2\n \
+6 Clavecin\n \
+7 Clavinet\n \
+8 Célesta\n \
+9 Glockenspiel\n \
+10 Boîte à musique\n \
+11 Vibraphone\n \
+12 Marimba\n \
+13 Xylophone\n \
+14 Cloches (Tubular bells)\n \
+15 Dulcimer\n \
+16 Orgue Drawbar\n \
+17 Orgue percussif\n \
+18 Orgue rock\n \
+19 Orgue d'église\n \
+20 Orgue Reed\n \
+21 Accordéon\n \
+22 Harmonica\n \
+23 Accordéon tango\n \
+24 Guitare acoustique nylon\n \
+25 Guitare acoustique métal\n \
+26 Guitare électrique jazz\n \
+27 Guitare électrique Clean\n \
+28 Guitare électrique étouffé\n \
+29 Guitare overdrive\n \
+30 Guitare disto\n \
+31 Guitare harmonique\n \
+32 Basse acoustique\n \
+33 Basse électrique (doigts)\n \
+34 Basse électrique (pick)\n \
+35 Basse fretless\n \
+36 Basse slapée 1\n \
+37 Basse slapée 2\n \
+38 Basse synthétique 1\n \
+39 Basse synthétique 2\n \
+40 Violon\n \
+41 Viole\n \
+42 Violoncelle\n \
+43 Contrebasse\n \
+44 Tremolo strings\n \
+45 Pizzicato strings\n \
+46 Orchestral strings\n \
+47 Timballes\n \
+48 Ensemble de corde 1\n \
+49 Ensemble de corde 2\n \
+50 Ensemble de corde Synth 1\n \
+51 Ensemble de corde Synth 2\n \
+52 Choeur Aahs\n \
+53 Choeur Oohs\n \
+54 Voix synthétique\n \
+55 Orchestre\n \
+56 Trompette\n \
+57 Trombone\n \
+58 Tuba\n \
+59 Trompette étouffée\n \
+60 Bigniou\n \
+61 Cuivres\n \
+62 Cuivre synthétique 1\n \
+63 Cuivre synthétique 2\n \
+64 Saxophone soprano\n \
+65 Saxophone alto\n \
+66 Saxophone ténor\n \
+67 Saxophone bariton\n \
+68 Hautbois\n \
+69 Cor\n \
+70 Basson\n \
+71 Clarinette\n \
+72 Petite flûte\n \
+73 Flûte\n \
+74 Flûte à bec\n \
+75 Flûte de Pan\n \
+76 Blown Bottle\n \
+77 Skakuhachi\n \
+78 Sifflet\n \
+79 Ocarina\n \
+80 Lead 1 (square)\n \
+81 Lead 2 (sawtooth)\n \
+82 Lead 3 (calliope)\n \
+83 Lead 4 (chiff)\n \
+84 Lead 5 (charang)\n \
+85 Lead 6 (voix)\n \
+86 Lead 7 (fifths)\n \
+87 Lead 8 (basse+lead)\n \
+88 Pad 1 (new age)\n \
+89 Pad 2 (warm)\n \
+90 Pad 3 (polysynth)\n \
+91 Pad 4 (choeur)\n \
+92 Pad 5 (bowed)\n \
+93 Pad 6 (metallique)\n \
+94 Pad 7 (halo)\n \
+95 Pad 8 (sweep)\n \
+96 FX 1 (pluie)\n \
+97 FX 2 (soundtrack)\n \
+98 FX 3 (cristal)\n \
+99 FX 4 (atmosphère)\n \
+100 FX 5 (brightness)\n \
+101 FX 6 (goblins)\n \
+102 FX 7 (échos)\n \
+103 FX 8 (SF)\n \
+104 Sitar\n \
+105 Banjo\n \
+106 Shamisen\n \
+107 Koto\n \
+108 Kalimba\n \
+109 Cornemuse\n \
+110 Violon celte\n \
+111 Shanai\n \
+112 Tinkle Bell\n \
+113 Agogo\n \
+114 Steel Drums\n \
+115 Woodblock\n \
+116 Taiko Drum\n \
+117 Tom Mélodique\n \
+118 Drum Synthétique\n \
+119 Cymbale Reverse\n \
+120 Frets de guitare\n \
+121 Respiration\n \
+122 Vague / mer\n \
+123 Chant d'oiseaux\n \
+124 Telephone\n \
+125 Helicoptère\n \
+126 Applaudissement\n \
+127 Détonations\n \
+128 Batterie"
+
+msgid  ""
+msgstr ""
+
+"Project-Id-Version: Songwrite 0.9\n"
+"Last-Translator: Jean-Baptiste LAMY <jiba@tuxfamily.org>\n"
+"Language-Team: français <jiba@tuxfamily.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
