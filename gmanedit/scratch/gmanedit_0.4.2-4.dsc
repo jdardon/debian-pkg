@@ -1,7 +1,7 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Format: 1.0
+Format: 3.0 (quilt)
 Source: gmanedit
 Binary: gmanedit
 Architecture: any
@@ -12,28 +12,28 @@ Standards-Version: 3.9.0
 Build-Depends: gettext (>= 0.10.35), autoconf, debhelper (>= 5), libgtk2.0-dev, pkg-config, quilt (>= 0.40), autotools-dev
 Checksums-Sha1: 
  ab10ab6d605419a646b8cc54c35ac457061c3e59 218000 gmanedit_0.4.2.orig.tar.gz
- 9f75bccbacbefcb4e6820c110b272cfd01ac2cf7 13829 gmanedit_0.4.2-4.diff.gz
+ bb8b0118199e8f69fb7aeab62ea62729f023f601 14261 gmanedit_0.4.2-4.debian.tar.gz
 Checksums-Sha256: 
  fbfaa424653b9287ca2994293bab03d51fa4957cdb7e974360f50c4ab2c76170 218000 gmanedit_0.4.2.orig.tar.gz
- b5295046fe5adf66f99fd8c4e59a3bf4b7fbd8c083ecbd59f52cc8c48e04775e 13829 gmanedit_0.4.2-4.diff.gz
+ b420b7b08295ea857c830c28f6ca6f7cdd454b173764897fc1a89d2808fdf8e1 14261 gmanedit_0.4.2-4.debian.tar.gz
 Files: 
  7d4989c762ef3ef1291fd7bccdf8e9be 218000 gmanedit_0.4.2.orig.tar.gz
- 5e2076c1faac1b139a51f05d2eb133dc 13829 gmanedit_0.4.2-4.diff.gz
+ 1127bb142245a6503a6b9177966350b0 14261 gmanedit_0.4.2-4.debian.tar.gz
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQIcBAEBCAAGBQJMNWIgAAoJEMOgSqmCTz2ZwQEQALSwCFVGH9A44s4mxuHhm40v
-+f+qFQo+V1W9E7FEJJxK4USSj8mYoaEUZH85x6HceIrI6TOTZquB0iW6dhiig4Y8
-yzcC6Dhkb75zqE1qACIYM8EnLKo4TcAqYbzJ4zfNnDS79u+TMPzOzBTFSZ1c3Sk6
-3Rp8vCdLGX6Telb0lI2Zaq2Ov52ct5DC0CuIOrDfCoFb/TudzOLs1McBOUo4nZ8g
-eZzTUo/OZ0i4bBWul6kO4seYvPZQ2+DziakA2g5ttk28gQkqeK7QbF2mE+DBX5zT
-4ALAeUL1C96E5F30KdCqbYI7ZQTfWRdNcik/c5Y5RE7x/Sjf/t0yj8uy8DXP389W
-+TDJuuv/IEWGYl5j8JUdURUmC7XIt8if0/ZCyTl3VY8BeIGNFc4SD3FZtj7gpC/G
-+14ql7PYsZaQFPhz6TvogCRHFQPdhURiqS/DEEhNFny1T6+aZzQjcAocZ9yR+sU5
-FmvlbRDICkIzSvRgO0Nqw2b9C2e4ZkgKEWt+j/nmVt/Ss6FqnfGqDQlIpfNcZrb+
-A07ZSJO/n5tMF3NlZb6eU3Y7puXc0OohGcpvi1bUvFQYJWjtmqMTIGgzUI6qyJC6
-KhPtpwwYOa71tAsk6MaurDo7xOn5Z+h1YJE1pYYS93rDXoz4ClKgm399m7GWaTUP
-X14is16MgyjUc3T9z+OF
-=wbdq
+iQIcBAEBCAAGBQJMPWCLAAoJEMOgSqmCTz2ZQSUP/RMqZfF6ZNSsHIVsnQtO/2wR
+Q/fhWHZC+b+Rs4kECLX+SSS0nixvbhdKre+4NzDjRSC/zdZ9kno78fLuCW/fx4Cf
+eFXkn9U2Gdo/4+btobU+OUiUmjYOKo9UCH7oBioDQehmQxs4H2IRytDj8KxPJFD9
+a+XF2+OFTrNEYw1HvjoSqrHRc1oLJEaMJB9rANzOy+7kwAtYpxcAQgOlwtZJ4cyM
+lkbKEFho6VV6ckGZxODKwIpaECwOo2/BEGw3WcdC9ccmxmufyav3uyUWRf571M7J
++DrBkzNzaccYxbT7X6wsWh1hC2hrZcJ0IF3XxLaKJG1Cn/Agh4dudAP5EQj/SPJN
+qcypOMpxi0K9RzW7WLJgHvK+MgzEnLWFhnTjADZOPQNZP/hk/Zmo4yvBh4lX5cpE
+osj6Dq3ddgDmVkrUu2HKGAq/e3E3reQ+VZ3aDurr6Oi/Ekng3MCaE9I3SESXbPKb
+XFI3NUka+O8TCVbmuEYificP31wLwILPngTDrmqsXcdqcr9i/rb6yqroUsyeCvqx
+r6A/pGFpY4w9F1vgL3BinO3lH2uotF7O+T8nFCSETP4fNaAUnfhyOnGPJNt0JhUi
+Q0O4Ay/2fm1FJaPNRyj5ykrIN/BEEM9bHgpEy4gEmBnom1TCqZB9dVV/KOr1GQDW
+QDMmwQQlUWRyxYTvB+nl
+=FFYE
 -----END PGP SIGNATURE-----
