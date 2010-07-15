@@ -1,7 +1,5 @@
-## Title:  00_typo_in_menu.dpatch
-## Author: <pietro@sidousci.vousci>
-## Description: Fix typo in menus. Instead of Titel now says Title.
-
+Author: <pietro@sidousci.vousci>
+Description: Fix typo in menus. Instead of Titel now says Title.
 diff -urNad gmanedit-0.4.2~/src/interface.c gmanedit-0.4.2/src/interface.c
 --- gmanedit-0.4.2~/src/interface.c	2008-03-12 19:20:00.000000000 +0100
 +++ gmanedit-0.4.2/src/interface.c	2009-11-18 10:36:21.000000000 +0100

@@ -5,13 +5,11 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-include /usr/share/quilt/quilt.make
 
 # This is the debhelper compatability version to use.
 #export DH_COMPAT=1
 
 build: build-stamp
-build-stamp: $(QUILT_STAMPFN)
 	dh_testdir
 
 	-test -r /usr/share/misc/config.sub && \

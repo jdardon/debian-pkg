@@ -1,7 +1,5 @@
-## Title: 01_spanish_translation.dpatch  
-## Author: <pietro@sidousci.vousci>
-## Description: Updating Spanish translation.
-
+Author: <pietro@sidousci.vousci>
+Description: Updating Spanish translation.
 diff -urNad gmanedit-0.4.2~/po/es.po gmanedit-0.4.2/po/es.po
 --- gmanedit-0.4.2~/po/es.po	2008-11-03 19:16:16.000000000 +0100
 +++ gmanedit-0.4.2/po/es.po	2009-11-09 23:27:53.000000000 +0100

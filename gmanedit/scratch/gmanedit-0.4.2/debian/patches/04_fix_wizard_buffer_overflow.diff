@@ -1,7 +1,5 @@
-## Title:  00_fix_wizard_buffer_overflow  
-## Author:  <pietro@sidousci.vousci>
-## Description: Fix buffer overflow in wizard.
-
+Author: <pietro@sidousci.vousci>
+Description: Fix buffer overflow in wizard.
 --- a/src/interface.c
 +++ b/src/interface.c
 @@ -496,6 +496,7 @@

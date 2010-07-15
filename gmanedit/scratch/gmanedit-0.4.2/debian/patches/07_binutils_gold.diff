@@ -1,8 +1,7 @@
-## Title:  07_binutils_gold 
-## Author: Jorge Alberto Dardón Galicia <jorge@xelalug.org>
-## Description: Fixes the fail to build with binutils-gold.
-## Last-update: 2010-06-07
-
+Author: Jorge Dardón <jorge@xelalug.org>
+Description: Fixes the fail to build drom source with binutils-gold.
+Last-update: 2010-06-07
+Bug: 554557
 diff -urNad '--exclude=CVS' '--exclude=.svn' '--exclude=.git' '--exclude=.arch' '--exclude=.hg' '--exclude=_darcs' '--exclude=.bzr' gmanedit-0.4.2~/src/Makefile.in gmanedit-0.4.2/src/Makefile.in
 --- gmanedit-0.4.2~/src/Makefile.in	2008-11-03 11:29:44.000000000 -0600
 +++ gmanedit-0.4.2/src/Makefile.in	2010-03-21 21:31:17.000000000 -0600

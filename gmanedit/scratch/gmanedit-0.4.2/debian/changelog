@@ -1,12 +1,6 @@
-gmanedit (0.4.2-4) unstable; urgency=low
-
-  * Switch to dpkg-source 3.0 (quilt) format
-  * Switch to dpkg-source 3.0 (quilt) format
-
- -- Jorge Dardon Galicia <jorge@xelalug.org>  Wed, 14 Jul 2010 00:59:39 -0600
-
 gmanedit (0.4.2-3.1) unstable; urgency=low
 
+  * Switch to dpkg-source 3.0 (quilt) format
   * Non-maintainer upload
   * Now Using Quilt.
   * Bumped to the Standards-Version 3.9.0.
